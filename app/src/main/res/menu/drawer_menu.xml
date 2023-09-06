@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_dashboard"
+            android:title="@string/dash_board"/>
+        <item
+            android:id="@+id/nav_symptom"
+            android:title="@string/covid_symptom" />
+        <item
+            android:id="@+id/nav_prevention"
+            android:title="@string/covid_prevention" />
+        <item
+            android:id="@+id/nav_treatment"
+            android:title="@string/covid_treatment" />
+        <item android:id="@+id/nav_factsabtcovid"
+            android:title="@string/facts_about_covid_19"/>
+        <item
+            android:id="@+id/nav_survival"
+            android:title="@string/survival_rate"/>
+        <item
+            android:id="@+id/nav_selfchecker"
+            android:title="@string/covid_19_self_checker"/>
+        <item 
+            android:id="@+id/nav_riskassesment"
+            android:title="@string/covid_19_risk_assesment"/>
+        <item
+            android:id="@+id/nav_bmi"
+            android:title="@string/body_mas_index" />
+
+        <item
+            android:id="@+id/nav_cases"
+            android:title="@string/covid_19_cases"/>
+        <item
+            android:id="@+id/nav_callcenter"
+            android:icon="@drawable/phone"
+            android:title="@string/call_center"/>
+
+
+        <item
+            android:id="@+id/nav_qna"
+            android:icon="@drawable/qna"
+            android:title="@string/q_amp_a_on_covid_19" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share" />
+
+            <item android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_baseline_contact_mail_24"
+                android:title="@string/contact_us"/>
+
+        </menu>
+    </item>
+</menu>

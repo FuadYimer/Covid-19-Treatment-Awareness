@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_secondary"
+        android:gravity="center"
+        android:text="@string/coronavirus_self_checker"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding= "false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Header and Agreement-->
+            <LinearLayout
+                android:id="@+id/layout_agreement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/the_purpose_of_self_checker"
+                    android:textColor="#005E70"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="@string/the_purpose_of_self_chacker_2"
+                    android:textColor="#005E70"
+                    android:textSize="15dp" />
+
+                <!--Agreement Layout-->
+                <LinearLayout
+                    android:id="@+id/agreement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/agreementgroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/btn_agree"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_left_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/i_agree"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/btn_disagree"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_right_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/i_don_t_agree"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+                </LinearLayout>
+                <!--End of Agreement Layout-->
+            </LinearLayout>
+
+
+            <!--First Question Region (current location) -->
+            <LinearLayout
+                android:id="@+id/firstquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/edit_bg">
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/first_if_you_are_experiencing_a_life_threatening_emergency_please_call_8335_952_immediately_n_nif_you_are_not_experiencing_a_life_threatening_emergency_let_s_get_started"
+                        android:textColor="#005E70"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/are_you_ethiopian_or_select_region_your_location_right_now"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/radio_button_left_unchacked">
+
+                    <Spinner
+                        android:id="@+id/sp_region"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:entries="@array/Region_arrays"
+                        android:spinnerMode="dropdown"
+                        android:textColor="@color/colorGrapeFruit"
+                        android:theme="@style/ThemeOverlay.AppCompat.Light" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--Second Question  answer type self/ someone else-->
+            <LinearLayout
+                android:id="@+id/secondquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/are_you_answering_for_yourself_or_someone_else"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/assesmenttype"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/selefassesment"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_left_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/my_self"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/notselefassesment"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_right_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/some_one_else"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--Third Question  What is your age?-->
+            <LinearLayout
+                android:id="@+id/thirdquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/what_is_your_age"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/radio_button_left_unchacked">
+
+                        <Spinner
+                            android:id="@+id/sp_agegroup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:entries="@array/agegroup_arrays"
+                            android:spinnerMode="dropdown"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--Notification Layout for age restriction-->
+            <LinearLayout
+                android:id="@+id/AgeRestrictionNotification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/notifactionmessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:text="@string/please_ask_your_parent_or_guardian_to_help_you_complete_these_questions"
+                    android:textColor="@color/colorBitterSweetDark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--Fourth Question What is your gender? -->
+            <LinearLayout
+                android:id="@+id/fourthquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/what_is_your_gender"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/gender"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/gender_male"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_left_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/male"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/gender_female"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_right_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/female"
+                            android:textColor="@color/colorGrapeFruit" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--Fifth Question  Do you have any of these life-threatening symptoms?-->
+            <LinearLayout
+                android:id="@+id/fifthquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/do_you_have_any_of_these_life_threatening_symptoms"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:shrinkColumns="2"
+                        android:stretchColumns="1">
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_column="2"
+                                android:text="@string/bluish_lips_or_face"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/severe_and_constant_pain_or_pressure_in_the_chese"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/extreme_difficulty_breathing_such_as_gasping_for_air_being_unable_to_talk_without_catching_your_breath_severe_wheezing_nostrils_flaring_e"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/new_disorientation_acting_confused"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/unconscious_or_very_difficult_to_wake_up"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/slurred_speech_or_difficulty_speaking_new_or_worsening"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/new_or_worsening_seizures"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/signs_of_low_blood_pressure_too_weak_to_stand_dizziness_lightheaded_feeling_cold_pale_clammy_skin"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/dehydration_dry_lips_and_mouth_not_urinating_much_sunken_eyes"
+                                android:textColor="#005E70" />
+                        </TableRow>
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/generalsyptom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/syptom_yes"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_left_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/yes"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/syptom_no"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_right_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/no"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--Responce 1 if Yes -->
+            <LinearLayout
+                android:id="@+id/responcefirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/edit_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="center"
+                    android:text="@string/urgent_medical_attention_may_be_needed_please_call_8335"
+                    android:textColor="@color/colorGrapeFruitDark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="@string/based_on_your_their_symptoms_you_may_need_urgent_medical_care_please"
+                    android:textColor="@color/colorGrapeFruitDark" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:text="@string/tell_the_8335_952_operator_or_emergency_staff_if_you_have_had_contact_with_someone_with_covid_19"
+                    android:textColor="@color/colorGrapeFruitDark" />
+
+            </LinearLayout>
+
+
+
+            <!--Sixth Question  Are you feeling sick?-->
+            <LinearLayout
+                android:id="@+id/sixthquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/are_you_feeling_sick"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/sick"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/sick_yes"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_left_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/yes"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/sick_no"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_right_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/no"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Seventh Question Close contact-->
+            <LinearLayout
+                android:id="@+id/seventhquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/in_the_two_weeks_before_you_felt_sick"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/contact_yes"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_left_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/yes"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/contact_no"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_center_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/no"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/contact_nither"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_right_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/i_don_t_know"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Eight Question  Do you have any of the following? (check any) Fiver-->
+            <LinearLayout
+                android:id="@+id/eightquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/do_you_have_any_of_the_following_check_any"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/layoutborder_bg"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <CheckBox
+                        android:id="@+id/checkBox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fever_or_feeling_feverish_such_as_chills_sweating"
+                        android:layout_gravity="left"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cough"
+                        android:layout_gravity="left"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/mild_or_moderate_difficulty_breathing"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/sore_throat"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBox5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/muscle_aches_or_body_aches"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBox6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/vomiting_or_diarrhea"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/new_loss_of_taste_or_smell"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBox8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/congestion_or_runny_nose"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+
+
+                    <RadioGroup
+                        android:id="@+id/submit_syptom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="10dp">
+                        <RadioButton
+                            android:id="@+id/submit_syptom_yes"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_left_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/submit"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--Nin Question  long-term care facility, nursing home, or homeless shelter-->
+            <LinearLayout
+                android:id="@+id/ninthquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/do_you_live_in_a_long_term_care_facility_nursing_home_or_homeless_shelter"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/shelter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/shelter_yes"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_left_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/yes"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/shelter_no"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_right_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/no"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Responce 2 if Yes -->
+            <LinearLayout
+                android:id="@+id/secondfirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/layoutborder_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:text="@string/contact_a_medical_provider_in_the_care_center_nursing_home_or_homeless_shelter_where_you_they_live"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/tell_a_caregiver_in_your_their_facility_that_you_they_are_sick_and_need_to_see_a_medical_provider_as_soon_as_possible_living_in_a_long_term_care_facility_or_nursing_home_may_put_you_them_at_a_higher_risk_for_severe_illness_n_n_help_protect_others_from_getting_sick"
+                    android:textColor="@color/colorPrimary" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:shrinkColumns="2"
+                        android:stretchColumns="1">
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_column="2"
+                                android:text="@string/stay_in_you_home_as_much_as_possible_except_to_get_medical_care"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/cover_your_coughs_and_sneezes_with_a_tissue_or_the_inside_of_your_elbow"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/wash_your_hands_often_with_soap_and_water"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/avoid_close_contact_with_other_people_stay_at_least_6_feet_away_from_other_people"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/wear_a_mask_when_around_others"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/clean_and_disinfect_frequently_touched_surfaces_in_your_room"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/monitor_your_health_and_notify_a_medical_provider_if_you_think_you_are_getting_sicker"
+                                android:textColor="#005E70" />
+                        </TableRow>
+                    </TableLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/please_check_with_your_ministry_of_health_or_local_health_department_for_additional_information_and_guidelines_about_covid_19_in_your_location"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/you_they_may_be_eligible_for_covid_19_testing"
+                    android:textColor="@color/colorGrapeFruitDark"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/contact_your_local_health_department_or_you_medical_provider_for_more_information"
+                    android:textColor="@color/colorPrimary"/>
+
+
+            </LinearLayout>
+
+
+            <!--Voluentary worked  for the past 15 daysYes /no-->
+            <LinearLayout
+                android:id="@+id/volunteeredquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/in_the_last_two_weeks_have_you_worked_or_volunteered_in_a_healthcare_facility_or_as_a_first_responder_healthcare_facilities_include_a_hospital_other_medical_setting_including_dental_care_setting_or_long_term_care_facility"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/volunteered"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/volunteered_yes"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_left_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/yes"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/volunteered_no"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_right_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/no"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--Voluntery work Yes Responce-->
+            <LinearLayout
+                android:id="@+id/volunteeredworkYesResponce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/layoutborder_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="center"
+                    android:text="@string/stay_home_keep_them_home_and_take_care_of_yourself_them_call_your_their_medical_provider"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/sorry_you_they_are_not_feeling_well_your_their_symptom_s_may_be_related_to_covid_19"
+                    android:textColor="@color/colorPrimary" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:shrinkColumns="2"
+                        android:stretchColumns="1">
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_column="2"
+                                android:text="@string/call_your_their_medical_provider_clinician_advice_line_or_telemedicine_provider"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/stay_home_keep_them_home_except_to_get_medical_care_n_do_not_go_to_work_school_or_public_areas_including_grocery_stores_pharmacies_or_restaurants_consider_delivery_options_for_food_and_medicine_n_do_not_use_public_transportation_or_ride_sharing"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/if_you_they_feel_worse_and_you_think_it_is_an_emergency_call_8335_952_or_seek_medical_care_immediately"
+                                android:textColor="#005E70" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/consider_using_telehealth_services_if_available"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/learn_how_to_take_care_of_yourself_or_someone_else_who_is_sick"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/clean_and_disinfect_frequently_touched_surfaces_in_your_room"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/take_steps_to_help_protect_others_from_getting_sick"
+                                android:textColor="#005E70" />
+                        </TableRow>
+                    </TableLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/please_check_with_your_ministry_of_health_or_local_health_department_for_additional_information_and_guidelines_about_covid_19_in_your_location"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/contact_the_occupational_health_provider_at_your_workplace_immediately"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/tell_the_occupational_health_provider_or_supervisor_in_your_workplace_that_you_re_feeling_sick_as_soon_as_possible"
+                    android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/you_they_may_be_eligible_for_covid_19_testing"
+                    android:textColor="@color/colorGrapeFruitDark"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/contact_your_local_health_department_or_you_medical_provider_for_more_information"
+                    android:textColor="@color/colorPrimary"/>
+
+
+            </LinearLayout>
+
+            <!--If voluntery work responce No-->
+            <!--does any of these apply to you Chronic lung disease, such as moderate to severe asthma, COPD (chronic-->
+            <LinearLayout
+                android:id="@+id/OtherDiseaseSyptom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/do_any_of_these_apply_to_you_check_any"
+                    android:textColor="#005E70"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/layoutborder_bg"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chronic_lung_disease_such_as_moderate_to_severe_asthma_copd_chronic_obstructive_pulmonary_disease_cystic_fibrosis_or_pulmonary_fibrosis"
+                        android:layout_gravity="left"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/serious_heart_condition_such_as_heart_failure_cardiomyopathy_heart_attack_or_blocked_arteries_to_the_heart"
+                        android:layout_gravity="left"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/weakened_immune_system_or_taking_medications_that_may_cause_immune_suppression"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="Obesity"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/diabetes_chronic_kidney_disease_or_liver_disease"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/high_blood_pressure"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/cancer"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/hiv"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/blood_disorder_such_as_sickle_cell_disease_or_thalassemia"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/cerebrovascular_disease_or_neurologic_condition_such_as_stroke_or_dementia"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/smoking_or_vaping"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+                    <CheckBox
+                        android:id="@+id/checkBoxdisease12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/none_of_the_above"
+                        android:layout_gravity="left"
+                        android:textColor="#005E70"/>
+
+
+                    <RadioGroup
+                        android:id="@+id/checkothersisease"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="10dp">
+                        <RadioButton
+                            android:id="@+id/checkothersisease_yes"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/radio_button_left_selector"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="@string/submit"
+                            android:textColor="@color/colorGrapeFruit"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <!--Voluntery work No Responce-->
+            <LinearLayout
+                android:id="@+id/volunteeredworkNoResponce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/layoutborder_bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="center"
+                    android:text="@string/call_a_medical_provider"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/sorry_you_they_are_not_feeling_well_your_their_symptoms_may_be_related_to_covid_19_you_they_also_have_medical_conditions_that_may_put_you_them_at_risk_of_becoming_more_seriously_ill"
+                    android:textColor="@color/colorPrimary" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:shrinkColumns="2"
+                        android:stretchColumns="1">
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_column="2"
+                                android:text="@string/call_your_their_medical_provider_clinician_advice_line_or_telemedicine_provider"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/stay_home_keep_them_home_except_to_get_medical_care_n_n_do_not_go_to_work_school_or_public_areas_including_grocery_stores_pharmacies_or_restaurants_consider_delivery_options_for_food_and_medicine_n_do_not_use_public_transportation_or_ride_sharing"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/if_you_they_feel_worse_and_you_think_it_is_an_emergency_call_8335_952_or_seek_medical_care_immediately"
+                                android:textColor="#005E70" />
+
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/consider_using_telehealth_services_if_available"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/learn_how_to_take_care_of_yourself_or_someone_else_who_is_sick"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/clean_and_disinfect_frequently_touched_surfaces_in_your_room"
+                                android:textColor="#005E70" />
+                        </TableRow>
+
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_column="1"
+                                android:layout_marginRight="2dp"
+                                android:text="►"
+                                android:textColor="#005E70"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_column="2"
+                                android:text="@string/take_steps_to_help_protect_others_from_getting_sick"
+                                android:textColor="#005E70" />
+                        </TableRow>
+                    </TableLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/please_check_with_your_ministry_of_health_or_local_health_department_for_additional_information_and_guidelines_about_covid_19_in_your_location"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/you_they_may_be_eligible_for_covid_19_testing"
+                    android:textColor="@color/colorGrapeFruitDark"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:gravity="left"
+                    android:text="@string/contact_your_local_health_department_or_you_medical_provider_for_more_information"
+                    android:textColor="@color/colorPrimary"/>
+
+
+            </LinearLayout>
+
+
+            <!--ENd of Main Linear layout -->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

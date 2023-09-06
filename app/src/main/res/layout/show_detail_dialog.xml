@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginRight="5dp"
+            android:background="@drawable/layoutborder_bg"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/diseases_or_drugs_that_weaken_immune_system"
+                android:textAlignment="center"
+                android:textColor="#005E70"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dialog_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/a_weakened_immune_system_can_be_caused_by_many_factors_e_g_cancer_treatment_bone_marrow_or_organ_transplantation_poorly_controlled_hiv_aids_or_some_congenital_diseases_also_it_may_be_caused_by_prolonged_use_of_immunosuppressant_drugs_such_as_corticosteroids_or_drugs_used_for_rheumatoid_arthritis_psoriasis_and_other_autoimmune_illnesses"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="15dp"
+         />
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+[
+   {
+      "Recommendation":"Call the emergency number",
+      "detail":"►  Call the emergency number of your country. Your symptoms are severe and you may need to be transported to a medical facility.~"
+   },
+   {
+      "Recommendation":"Immediately separate yourself from people and pets in your house",
+      "detail":"►  If possible, isolate yourself in a separate room, away from other members of your household. If this is not possible, keep a distance of at least 1 meter from others and wear a protective surgical mask. Avoid all interaction with household pets.~"
+   },
+   {
+      "Recommendation":"Wear a surgical face mask",
+      "detail":"►  Put on a surgical face mask whenever somebody is about to enter the same room or vehicle as you. Put on a surgical face mask before entering an ambulance or medical facility. People interacting with you should wear face masks as well, particularly if you have difficulty breathing.~"
+   },
+   {
+      "Recommendation":"Quarantine",
+      "detail":"►  Choose a well-ventilated separate room, or if a single separate room is not possible, please maintain a distance of at least 2 meters (6 feet) from other household members and minimize the usage of shared spaces like a kitchen or bathroom. Remember to stock adequate provisions and medication for the quarantine period. For your comfort, ensure that you have access to the Internet, news, and entertainment. While under quarantine, communication with family and friends on the outside is important in maintaining good mental health during what can be for some a difficult time. Quarantine usually is for 14 days, starting from the last day of exposure to the virus. If you feel that you’re personally unable to withstand quarantine conditions for the full 14-day period, please contact your local public health authorities for support. They are ready and willing to help you throughout this period.~"
+   },
+   {
+      "Recommendation":"Cough and sneeze properly",
+      "detail":"►  Cover your mouth and nose with a tissue when you are about to cough or sneeze. ~ ► Throw the used tissue out into a bin lined with a trash bag. ~ ► Disinfect your hands afterward with an alcohol-based rub containing a minimum of 60% of alcohol, or wash your hands with soap and water for a minimum of 20 seconds.~"
+   },
+   {
+      "Recommendation":"Stay at home and rest",
+      "detail":"Although the symptoms you’ve presented suggest an illness other than COVID-19, it is advised to stay at home until you have recovered. Staying at home will not only allow you to get better faster, but it is a protective measure to other people, especially older people, those particularly vulnerable to disease and to the health care workers who are currently treating the ill. Such precaution is also recommended by the CDC as well as the European Center for Disease Prevention.~"
+   },
+   {
+      "Recommendation":"Wash your hands often",
+      "detail":"Your hands are a carrier for the coronavirus. Every time you touch your face area, cough into your palms, or go to the toilet, your hands become contaminated and spread the virus to everything you come into contact with. It is crucial, for the safety of your household members, that you clean your hands regularly with soap and water or an alcohol-based rub.~"
+   },
+   {
+      "Recommendation":"Monitor your symptoms",
+      "detail":"Please monitor your health several times a day. If it is possible, keep a thermometer in your isolation place and monitor your temperature every couple of hours. Repeat this checkup, if you notice any new symptoms. ~  ►  Tell health personnel that you are being evaluated for COVID-19. Put on a surgical face mask prior to their arrival.~"
+   },
+   {
+      "Recommendation":"Maintain social distancing",
+      "detail":"► Social/physical distancing is critical to stopping transmission. Maintain a distance of at least 1 meter (3 feet) between yourself and others, even if they are not exhibiting symptoms of COVID-19. ~ ►  Avoid traveling – especially if you are an older person or have a condition such as diabetes, heart or lung disease.~"
+   },
+   {
+      "Recommendation":"Call local health care facility",
+      "detail":"►Call your local COVID-19 related health care number. Depending on the country, there may be the a telephone line issued by Ministry of Health Department~"
+   },
+   {
+      "Recommendation":"Maintain strict hygiene",
+      "detail":"It is strongly recommended to take simple precautions that can reduce your chances of becoming infected in the future or of spreading the virus:~  ► Regularly and thoroughly clean your hands with an alcohol-based hand sanitizer or wash them with soap and water for at least 20 seconds. ~  ►  Avoid touching your eyes, nose and mouth.~  ► Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze. ~  ►  Disinfect your hands after sneezing. ~  ►  Do not share your cups, plates, cutlery and other household utensils with family members. ~"
+   },
+   {
+      "Recommendation":"Regularly clean commonly touched surfaces in your house",
+      "detail":"Surfaces and items like doorknobs, bathroom fixtures, toilets, phones, keyboards, tablets, and bedside tables easily get contaminated with the coronavirus. Clean them regularly with household cleaners, to avoid transmitting the disease to other household members. Pay extra attention to the toilet area and other places that may have residue bodily fluids on them ~"
+   },
+   {
+      "Recommendation":"Call a doctor or healthcare facility",
+      "detail":"Call your GP in advance and tell him or her about your symptoms. The doctor will ask you about your current complaints and medical history, and he or she may decide to invite you to come in for a check-up. ~ If your symptoms seem very severe, suddenly get worse, and you are worried, go to your nearest Emergency Department (call in advance if possible) or call an emergency number.~"
+   }
+]

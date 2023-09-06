@@ -1,0 +1,62 @@
+[
+   {
+      "region":"Addis Ababa",
+      "case":"46570000",
+      "death":"122"
+   },
+   {
+      "region":"Oromia",
+      "case":"15033",
+      "death":"6"
+   },
+   {
+      "region":"Tigray",
+      "case":"6402",
+      "death":"2"
+   },
+   {
+      "region":"Amhara",
+      "case":"5604",
+      "death":"3"
+   },
+   {
+      "region":"SNNPR",
+      "case":"3543",
+      "death":"0"
+   },
+   {
+      "region":"Sidama",
+      "case":"2624",
+      "death":"0"
+   },
+   {
+      "region":"Dire Dawa",
+      "case":"2577",
+      "death":"6"
+   },
+   {
+      "region":"Harari",
+      "case":"2520",
+      "death":"1"
+   },
+   {
+      "region":"Benshangul Gumuz",
+      "case":"2121",
+      "death":"0"
+   },
+   {
+      "region":"Afar",
+      "case":"1618",
+      "death":"1"
+   },
+   {
+      "region":"Somali",
+      "case":"1513",
+      "death":"4"
+   },
+   {
+      "region":"Gambela",
+      "case":"993",
+      "death":"0"
+   }
+]

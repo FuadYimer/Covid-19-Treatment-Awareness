@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covid_selef_treatment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PreventionActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_main" />
+        </activity>
+        <activity android:name=".syptoms.SyptomDetailHolderActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SyptomActivity" />
+        </activity>
+        <activity android:name=".SyptomActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_main" />
+        </activity>
+        <activity android:name=".factsaboutcovid.FactsDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".factsaboutcovid.FactsAboutCovid19" />
+        </activity>
+        <activity android:name=".factsaboutcovid.FactsAboutCovid19">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_main" />
+        </activity>
+        <activity android:name=".riskassesment.Risk_Assesment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_main" />
+        </activity>
+        <activity android:name=".SelfChecker">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_main" />
+        </activity>
+        <activity android:name=".SurvivalRateActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_main" />
+        </activity>
+        <activity android:name=".GetTreatment" />
+        <activity android:name=".CovidCases">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_main" />
+        </activity>
+        <activity android:name=".TreatmentActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_main" />
+        </activity>
+        <activity android:name=".GetQuestionandAnswer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_main" />
+        </activity>
+        <activity android:name=".BMIActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+            android:theme="@style/LoginPage"
+            android:windowSoftInputMode="adjustResize"
+            -->
+        </activity>
+        <activity android:name=".SignUp" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

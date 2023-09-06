@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/edit_bg"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/factscardview"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/layoutborder_bg">
+
+                <ImageView
+                    android:id="@+id/factphoto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/factsaboutcovid_1" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/facttitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/colorAquaDark"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/when_properly_worn_medical_masks_won_t_make_you_breathe_in_too_little_oxygen_or_too_much_carbon_dioxide"
+                android:layout_toRightOf="@+id/factsabtcovid" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/factdetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="#000"
+            android:layout_gravity="center_vertical"
+            android:text="@string/when_properly_worn_medical_masks_won_t_make_you_breathe_in_too_little_oxygen_or_too_much_carbon_dioxide"
+            android:layout_toRightOf="@+id/factsabtcovid"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

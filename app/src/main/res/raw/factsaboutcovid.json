@@ -1,0 +1,110 @@
+[
+   {
+      "fact":"When properly worn, medical masks won't make you breathe in too little oxygen or too much carbon dioxide",
+      "detail":"Medical masks, also known as surgical masks, are flat or pleated masks that attach to the head with straps or loops. Medical masks may feel uncomfortable if worn for a long time, but they won't make you breathe in too little oxygen or too much carbon dioxide."
+   },
+   {
+      "fact":"Drinking alcohol won't prevent or cure COVID-19",
+      "detail":"Drinking alcohol will not protect you against COVID-19. Consuming too much alcohol can increase your risk of other health problems."
+   },
+   {
+      "fact":"Consuming bleach or disinfectant is dangerous and won't prevent COVID-19",
+      "detail":"Bleach and other disinfectants are poisons. Do not spray, drink, or otherwise put them into your body under any circumstances. They should only be used to carefully disinfect surfaces."
+   },
+   {
+      "fact":"Drinking methanol or ethanol is dangerous and won't prevent or cure COVID-19",
+      "detail":"Methanol and ethanol are poisons. Drinking them will not kill the COVID-19 virus in your body. It can cause disability or death. Methanol and ethanol are sometimes used in cleaning products that can be used to carefully disinfect surfaces."
+   },
+   {
+      "fact":"Holding your breath isn't a test for COVID-19",
+      "detail":"Being able to hold your breath for 10 seconds or more without coughing or feeling discomfort does not mean you are free from COVID-19 or any other lung disease. The best way to confirm if you have the COVID-19 virus is through a laboratory test."
+   },
+   {
+      "fact":"Eating garlic doesn't prevent or cure COVID-19",
+      "detail":"Garlic is a healthy food that may kill some microbes, but there is no evidence that it protects people from COVID-19. The best way to protect yourself from COVID-19 is to keep a safe distance from others and clean your hands frequently and thoroughly."
+   },
+   {
+      "fact":"Young people can get COVID-19",
+      "detail":"People of all ages can be infected by the COVID-19 virus. Everyone, no matter how old, should practice prevention measures, such as cleaning your hands regularly and keeping a safe distance from others."
+   },
+   {
+      "fact":"Heat and humidity don't stop the spread of COVID-19",
+      "detail":"You can catch COVID-19 no matter how sunny or hot the weather is. Countries with hot weather have reported cases of COVID-19. The best way to protect yourself from COVID-19 is to keep a safe distance from others and clean your hands frequently and thoroughly."
+   },
+   {
+      "fact":"Eating hot peppers won't cure or prevent COVID-19",
+      "detail":"Peppers may be tasty, but they can't prevent or cure COVID-19. The best way to protect yourself from COVID-19 is to keep a safe distance from others and clean your hands frequently and thoroughly."
+   },
+   {
+      "fact":"No drugs have been proven to cure, treat or prevent COVID-19",
+      "detail":"There is currently no proof that any drug can cure or prevent COVID-19, though several drugs are being tested. The best way to protect yourself from COVID-19 is to keep a safe distance from others and clean your hands frequently and thoroughly."
+   },
+   {
+      "fact":"Antibiotics can't treat or prevent COVID-19",
+      "detail":"Antibiotics only work against bacteria, not viruses. COVID-19 is caused by a virus. Patients with COVID-19 may receive antibiotics to treat bacterial infections that occur at the same time."
+   },
+   {
+      "fact":"Vitamin and mineral supplements won’t cure COVID-19",
+      "detail":"Zinc, vitamins D, C and other supplements won’t cure COVID-19, though they are important for a well-functioning immune system and overall health."
+   },
+   {
+      "fact":"Hot baths don't prevent COVID-19",
+      "detail":"No matter how hot your shower or bath is, your normal body temperature remains about the same. Bathing with extremely hot water can cause burns. The best way to protect yourself from COVID-19 is to keep a safe distance from others and clean your hands frequently and thoroughly."
+   },
+   {
+      "fact":"Cold and snow don't prevent COVID-19",
+      "detail":"Cold weather does not cure, treat or prevent the spread of COVID-19. The best way to protect yourself from COVID-19 is to keep a safe distance from others and clean your hands frequently and thoroughly."
+   },
+   {
+      "fact":"Pneumonia vaccines don't prevent COVID-19",
+      "detail":"The COVID-19 virus is so new and different that it needs its own vaccine. Existing vaccines are highly recommended, however, to protect your health from pneumonia."
+   },
+   {
+      "fact":"Hand dryers don't prevent COVID-19",
+      "detail":"Hand dryers cannot kill COVID-19. To protect yourself from COVID-19, frequently clean your hands with alcohol-based hand rub or soap and water. Dry them thoroughly with paper towels or a warm air dryer."
+   },
+   {
+      "fact":"Regularly rinsing your nose with saline doesn't prevent COVID-19",
+      "detail":"There is no evidence that regular saline rinses protect people from COVID-19 or other respiratory infections. There is some limited evidence that they can help you recover faster from the common cold."
+   },
+   {
+      "fact":"Ultra-violet lamps shouldn't be used to prevent or cure COVID-19",
+      "detail":"UV lamps should not be used to disinfect your skin or hands. They can irritate your skin and damage your eyes. Cleaning your hands with alcohol-based hand rub or soap and water is the most effective way to remove the COVID-19 virus."
+   },
+   {
+      "fact":"Mosquito bites don't spread COVID-19",
+      "detail":"There is no evidence to suggest that COVID-19 can spread through mosquito bites. COVID-19 spreads mainly through droplets produced when an infected person coughs, sneezes or talks. It can also spread if you touch an infected surface and then touch your eyes, nose or mouth. To protect yourself, clean your hands often and disinfect frequently touched surfaces at home."
+   },
+   {
+      "fact":"Houseflies don't spread COVID-19",
+      "detail":"There is no evidence to suggest that COVID-19 can spread through houseflies. COVID-19 spreads mainly through droplets produced when an infected person coughs, sneezes or talks. It can also spread if you touch an infected surface and then touch your eyes, nose or mouth. To protect yourself, clean your hands often and disinfect frequently touched surfaces at home."
+   },
+   {
+      "fact":"5G mobile networks don't spread COVID-19",
+      "detail":"Viruses, including the one that causes COVID-19, cannot travel on radio waves or mobile networks. COVID-19 is spreading in many countries that do not have 5G mobile networks."
+   },
+   {
+      "fact":"It's very unlikely that shoes spread COVID-19",
+      "detail":"The likelihood of COVID-19 being spread by shoes is very low. As an extra safety step, consider leaving your shoes at the entrance of your home, particularly if infants or small children play on the floors. This will prevent contact with dirt or waste from the soles of shoes."
+   },
+   {
+      "fact":"COVID-19 is caused by a virus, not by bacteria",
+      "detail":"The virus that causes COVID-19 belongs to a virus family called Coronaviridae. Antibiotics do not work against viruses. Some people with COVID-19 also develop a bacterial infection at the same time. In this case, antibiotics may be recommended by a health care provider."
+   },
+   {
+      "fact":"Most people recover from COVID-19",
+      "detail":"Most people who get COVID-19 have mild or moderate symptoms and can recover with medical care. If you have symptoms like cough, fever or difficulty breathing, seek medical care. Call a doctor by telephone before going into a medical office or hospital. If you have fever and live in an area with malaria or dengue fever, call a doctor immediately."
+   },
+   {
+      "fact":"Thermal scanners detect fever, not COVID-19",
+      "detail":"Thermal scanners can detect people who have a fever, which can be due to COVID-19. However, not everyone who gets COVID-19 develops a fever. Thermal scanners also cannot detect people who are infected but not yet sick with fever. This is because it takes 2 to 10 days for people infected with COVID-19 to develop fever."
+   },
+   {
+      "fact":"Older people aren't the only ones at risk for COVID-19",
+      "detail":"People of all ages can be infected by the COVID-19 virus. People who are 60 or over and those with conditions like asthma, diabetes and heart disease are at higher risk of becoming severely ill. Everyone should practice prevention measures like cleaning your hands regularly and keeping a safe distance from others."
+   },
+   {
+      "fact":"Hydroxychloroquine hasn't been proven to cure or treat COVID-19",
+      "detail":"Hydroxychloroquine and chloroquine are treatments for malaria and other diseases. They have been studied as possible treatments for COVID-19, but current data shows that they don't reduce deaths from COVID-19 or help people with moderate illness. Hydroxychloroquine and chloroquine can treat malaria and autoimmune diseases. However, using them for other diseases or without medical supervision can have serious side effects and should be avoided."
+   }
+]

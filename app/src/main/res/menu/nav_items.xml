@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/nav_whotip"
+        android:icon="@drawable/prevention"
+        android:title="WHO Prevention Tips"/>
+
+    <item
+        android:id="@+id/nav_wkutip"
+        android:icon="@drawable/weremask"
+        android:title="WKU Banner"/>
+</menu>

@@ -1,0 +1,713 @@
+<resources>
+    <string name="app_name">Covid-19 Treatment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="not_user_register_not">Not User? <u>Register Now!</u></string>
+    <string name="already_have_account_login">Already have Account?<u>Login!</u> </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_home">Symptoms</string>
+    <string name="nav_notification">Prevention</string>
+    <string name="nav_account">Treatment</string>
+    <string name="protect_yourself_and_others_around_you_by_knowing_the_facts_and_taking_appropriate_precautions_follow_advice_provided_by_your_local_health_authority">Protect yourself and others around you by knowing the facts and taking appropriate precautions. Follow advice provided by your local health authority.</string>
+
+    <string-array name="Gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+    <string name="country_prompt">Choose a Location</string>
+    <string-array name="Region_arrays">
+        <item>Please Select Region</item>
+        <item>Addis Ababa</item>
+        <item>Afar</item>
+        <item>Amhara</item>
+        <item>Benishangul-Gumuz</item>
+        <item>Dire Dawa</item>
+        <item>Gembela</item>
+        <item>Harari</item>
+        <item>Oromia</item>
+        <item>Somalia</item>
+        <item>Sidama</item>
+        <item>SNNPR</item>
+        <item>Tigray</item>
+    </string-array>
+
+
+    <string-array name="agegroup_arrays">
+        <item>Please select an age</item>
+        <item>younger than 2 years old</item>
+        <item>2 - 4</item>
+        <item>5 - 9</item>
+        <item>10 - 12</item>
+        <item>13 - 17</item>
+        <item>19 - 29</item>
+        <item>30 - 39</item>
+        <item>40 - 49</item>
+        <item>50 - 59</item>
+        <item>60 - 69</item>
+        <item>70 - 79</item>
+        <item>80 +</item>
+    </string-array>
+
+
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="your_weight_in_kg">Your Weight in Kg</string>
+    <string name="your_height_in_meter">Your Height in Meter</string>
+    <string name="calculate">Calculate</string>
+    <string name="your_result">Your Result</string>
+    <string name="bmi_categories">BMI Categories:</string>
+    <string name="underweight_less_than_18_5">Underweight = less than 18.5</string>
+    <string name="normal_weight_18_5_24_9">Normal weight = 18.5-24.9</string>
+    <string name="overweight_25_29_9">Overweight = 25-29.9</string>
+    <string name="obesity_bmi_of_30_or_greater">Obesity = BMI of 30 or greater</string>
+    <string name="languate_already_selected">Language already selected!</string>
+
+    <string name="symptoms">Symptoms</string>
+    <string name="common_syptom_of_covid_19">Common symptom of Covid-19</string>
+    <string name="prevention">Prevention</string>
+    <string name="recommendations_to_prevent_covid_19">Recommendations to prevent covid-19</string>
+    <string name="treatment">Treatment</string>
+    <string name="treatment_tip_of_covid_19">Treatment tip of Covid-19</string>
+    <string name="covid_19_cases">Covid-19 Cases</string>
+    <string name="total_confirmed_recovered_and_deaths">Total confirmed, recovered and deaths</string>
+    <string name="risk_assesment">Risk assessment</string>
+    <string name="checkup_results_based_on_who_and_cdc_guideline">Checkup results based on WHO and CDC guideline</string>
+    <string name="self_checker">Self Checker</string>
+    <string name="self_checker_is_an_interactive_clinical_assessment_tool_that_will_assist_individuals">Self-Checker is an interactive clinical assessment tool that will assist individuals</string>
+    <string name="survival_rate">Survival Rate</string>
+    <string name="survival_rate_calculator_based_on_world_data">Survival Rate Calculator based on World data</string>
+    <string name="fascts_on_covid">Facts on Covid</string>
+    <string name="facts_common_rummor_about_covid">Facts, common rummor about covid</string>
+    <string name="covid_case_et">Covid Case ET</string>
+    <string name="covid_regional">Covid Regional</string>
+    <string name="covid_case_world">Covid Case world</string>
+    <string name="facts_about_covid_19">Facts About COVID-19</string>
+    <string name="these_facts_come_from_the_world_health_organization_they_correct_common_untrue_rumors_about_coronavirus_covid_19">These facts come from the World Health Organization. They correct common, untrue rumors about coronavirus (COVID-19).</string>
+    <string name="when_properly_worn_medical_masks">When properly worn, medical masks won\'t make you breathe in too little oxygen or too much carbon dioxide.</string>
+    <string name="medical_masks_also_known_as_surgical_masks_are_flat_or_pleated_masks_that_attach_to_the_head_with_straps_or_loops_medical_masks_may_feel_uncomfortable">Medical masks, also known as surgical masks, are flat or pleated masks that attach to the head with straps or loops. Medical masks may feel uncomfortable if worn for a long time, but they won\'t make you breathe in too little oxygen or too much carbon dioxide.</string>
+    <string name="source_world_health_organization">Source: World Health Organization</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">Log In</string>
+    <string name="covid_19_risk_assessment">Covid-19 Risk Assessment</string>
+    <string name="coronavirus_self_checker">Coronavirus Self-Checker</string>
+    <string name="the_purpose_of_self_checker">The purpose of the Coronavirus Self-Checker is to help you make decisions about seeking appropriate medical care. This system is not intended for the diagnosis or treatment of disease or other conditions, including COVID-19.</string>
+    <string name="the_purpose_of_self_chacker_2">This self-checker is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a medical professional for serious symptoms or emergencies.</string>
+    <string name="i_agree">I Agree</string>
+    <string name="i_don_t_agree">I Don\'t Agree</string>
+    <string name="first_if_you_are_experiencing_a_life_threatening_emergency_please_call_8335_952_immediately_n_nif_you_are_not_experiencing_a_life_threatening_emergency_let_s_get_started">First, if you are experiencing a life-threatening emergency, please call 8335/952 immediately.\n\nIf you are not experiencing a life-threatening emergency, let’s get started.</string>
+    <string name="are_you_ethiopian_or_select_region_your_location_right_now">Are you from Ethiopia or Select Region (your Location) right now?</string>
+    <string name="are_you_answering_for_yourself_or_someone_else">Are you answering for yourself or someone else?</string>
+    <string name="my_self">My Self</string>
+    <string name="some_one_else">Some one else</string>
+    <string name="what_is_your_age">What is your age ?</string>
+    <string name="please_ask_your_parent_or_guardian_to_help_you_complete_these_questions">Please ask your parent or guardian to help you complete these questions.</string>
+    <string name="what_is_your_gender">What is your gender ?</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="do_you_have_any_of_these_life_threatening_symptoms">Do you have any of these life-threatening symptoms?</string>
+    <string name="bluish_lips_or_face">Bluish lips or face</string>
+    <string name="severe_and_constant_pain_or_pressure_in_the_chese">Severe and constant pain or pressure in the chest</string>
+    <string name="extreme_difficulty_breathing_such_as_gasping_for_air_being_unable_to_talk_without_catching_your_breath_severe_wheezing_nostrils_flaring_e">Extreme difficulty breathing (such as gasping for air, being unable to talk without catching your breath, severe wheezing, nostrils flaring)e</string>
+    <string name="new_disorientation_acting_confused">New disorientation (acting confused)</string>
+    <string name="unconscious_or_very_difficult_to_wake_up">Unconscious or very difficult to wake up</string>
+    <string name="slurred_speech_or_difficulty_speaking_new_or_worsening">Slurred speech or difficulty speaking (new or worsening)</string>
+    <string name="new_or_worsening_seizures">New or worsening seizures</string>
+    <string name="signs_of_low_blood_pressure_too_weak_to_stand_dizziness_lightheaded_feeling_cold_pale_clammy_skin">Signs of low blood pressure (too weak to stand, dizziness, lightheaded, feeling cold, pale, clammy skin)</string>
+    <string name="dehydration_dry_lips_and_mouth_not_urinating_much_sunken_eyes">Dehydration (dry lips and mouth, not urinating much, sunken eyes)</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="urgent_medical_attention_may_be_needed_please_call_8335">Urgent medical attention may be needed. Please call 8335/952 or go to the Emergency Department.</string>
+    <string name="based_on_your_their_symptoms_you_may_need_urgent_medical_care_please">Based on your (their) symptoms, you may need urgent medical care. Please call 8335/952 or go to the nearest emergency department.</string>
+    <string name="tell_the_8335_952_operator_or_emergency_staff_if_you_have_had_contact_with_someone_with_covid_19">Tell the 8335/952 operator or emergency staff if you have had contact with someone with COVID-19.</string>
+    <string name="are_you_feeling_sick">Are you feeling sick?</string>
+    <string name="in_the_two_weeks_before_you_felt_sick">In the two weeks before you felt sick, did you care for or have close contact (within 6 feet of an infected person for at least 15 minutes) with someone with symptoms of COVID-19, tested for COVID-19, or diagnosed with COVID-19?</string>
+    <string name="i_don_t_know">I don\'t know</string>
+    <string name="do_you_have_any_of_the_following_check_any">Do you have any of the following? (check any)</string>
+    <string name="fever_or_feeling_feverish_such_as_chills_sweating">Fever or feeling feverish (such as chills, sweating)</string>
+    <string name="cough">Cough</string>
+    <string name="mild_or_moderate_difficulty_breathing">Mild or moderate difficulty breathing</string>
+    <string name="muscle_aches_or_body_aches">Muscle aches or body aches</string>
+    <string name="vomiting_or_diarrhea">Vomiting or diarrhea</string>
+    <string name="new_loss_of_taste_or_smell">New loss of taste or smell</string>
+    <string name="congestion_or_runny_nose">Congestion or runny nose</string>
+    <string name="submit">Submit</string>
+    <string name="do_you_live_in_a_long_term_care_facility_nursing_home_or_homeless_shelter">Do you live in a long-term care facility, nursing home, or homeless shelter?</string>
+    <string name="contact_a_medical_provider_in_the_care_center_nursing_home_or_homeless_shelter_where_you_they_live">Contact a medical provider in the care center, nursing home, or homeless shelter where you (they) live.</string>
+    <string name="tell_a_caregiver_in_your_their_facility_that_you_they_are_sick_and_need_to_see_a_medical_provider_as_soon_as_possible_living_in_a_long_term_care_facility_or_nursing_home_may_put_you_them_at_a_higher_risk_for_severe_illness_n_n_help_protect_others_from_getting_sick">Tell a caregiver in your (their) facility that you (they) are sick and need to see a medical provider as soon as possible. Living in a long-term care facility or nursing home may put you (them) at a higher risk for severe illness. \n\n Help protect others from getting sick:</string>
+    <string name="stay_in_you_home_as_much_as_possible_except_to_get_medical_care">Stay in you home as much as possible except to get medical care</string>
+    <string name="cover_your_coughs_and_sneezes_with_a_tissue_or_the_inside_of_your_elbow">Cover your coughs and sneezes with a tissue or the inside of your elbow.</string>
+    <string name="wash_your_hands_often_with_soap_and_water">Wash your hands often with soap and water.</string>
+    <string name="avoid_close_contact_with_other_people_stay_at_least_6_feet_away_from_other_people">Avoid close contact with other people. Stay at least 6 feet away from other people.</string>
+    <string name="wear_a_mask_when_around_others">Wear a mask when around others.</string>
+    <string name="clean_and_disinfect_frequently_touched_surfaces_in_your_room">Clean and disinfect frequently touched surfaces in your room.</string>
+    <string name="monitor_your_health_and_notify_a_medical_provider_if_you_think_you_are_getting_sicker">Monitor your health and notify a medical provider if you think you are getting sicker.</string>
+    <string name="please_check_with_your_ministry_of_health_or_local_health_department_for_additional_information_and_guidelines_about_covid_19_in_your_location">Please check with your Ministry of Health or local health department for additional information and guidelines about COVID-19 in your location.</string>
+    <string name="you_they_may_be_eligible_for_covid_19_testing">You (they) may be eligible for COVID-19 testing.</string>
+    <string name="contact_your_local_health_department_or_you_medical_provider_for_more_information">Contact your local health department or you medical provider for more information.</string>
+    <string name="in_the_last_two_weeks_have_you_worked_or_volunteered_in_a_healthcare_facility_or_as_a_first_responder_healthcare_facilities_include_a_hospital_other_medical_setting_including_dental_care_setting_or_long_term_care_facility">In the last two weeks, have you worked or volunteered in a healthcare facility or as a first responder? Healthcare facilities include a hospital, other medical setting (including dental care setting), or long-term care facility.</string>
+    <string name="stay_home_keep_them_home_and_take_care_of_yourself_them_call_your_their_medical_provider">Stay home (keep them home) and take care of yourself (them). Call your (their) medical provider.</string>
+    <string name="sorry_you_they_are_not_feeling_well_your_their_symptom_s_may_be_related_to_covid_19">Sorry you (they) are not feeling well. Your (their) symptom(s) may be related to COVID-19.</string>
+    <string name="call_your_their_medical_provider_clinician_advice_line_or_telemedicine_provider">Call your (their) medical provider, clinician advice line, or telemedicine provider.</string>
+    <string name="stay_home_keep_them_home_except_to_get_medical_care_n_do_not_go_to_work_school_or_public_areas_including_grocery_stores_pharmacies_or_restaurants_consider_delivery_options_for_food_and_medicine_n_do_not_use_public_transportation_or_ride_sharing"><![CDATA[Stay home (keep them home) except to get medical care. \n => Do not go to work, school, or public areas including grocery stores, pharmacies, or restaurants. Consider delivery options for food and medicine. \n=>Do not use public transportation or ride sharing.]]></string>
+
+    <string name="contact_the_occupational_health_provider_at_your_workplace_immediately">Contact the occupational health provider at your workplace immediately.</string>
+    <string name="tell_the_occupational_health_provider_or_supervisor_in_your_workplace_that_you_re_feeling_sick_as_soon_as_possible">Tell the occupational health provider (or supervisor) in your workplace that you’re feeling sick as soon as possible.</string>
+
+    <string name="do_any_of_these_apply_to_you_check_any">Do any of these apply to you? (check any)</string>
+    <string name="chronic_lung_disease_such_as_moderate_to_severe_asthma_copd_chronic_obstructive_pulmonary_disease_cystic_fibrosis_or_pulmonary_fibrosis">Chronic lung disease, such as moderate to severe asthma, COPD (chronic obstructive pulmonary disease), cystic fibrosis, or pulmonary fibrosis</string>
+    <string name="serious_heart_condition_such_as_heart_failure_cardiomyopathy_heart_attack_or_blocked_arteries_to_the_heart">Serious heart condition, such as heart failure, cardiomyopathy, heart attack, or blocked arteries to the heart</string>
+    <string name="weakened_immune_system_or_taking_medications_that_may_cause_immune_suppression">Weakened immune system or taking medications that may cause immune suppression</string>
+    <string name="diabetes_chronic_kidney_disease_or_liver_disease">Diabetes, chronic kidney disease, or liver disease</string>
+    <string name="high_blood_pressure">High blood pressure</string>
+    <string name="cancer">Cancer</string>
+    <string name="hiv">HIV</string>
+    <string name="blood_disorder_such_as_sickle_cell_disease_or_thalassemia">Blood disorder, such as sickle cell disease or thalassemia</string>
+    <string name="cerebrovascular_disease_or_neurologic_condition_such_as_stroke_or_dementia">Cerebrovascular disease or neurologic condition, such as stroke or dementia</string>
+    <string name="smoking_or_vaping">Smoking or Vaping</string>
+    <string name="none_of_the_above">None of the above</string>
+    <string name="call_a_medical_provider">Call a medical provider.</string>
+    <string name="sorry_you_they_are_not_feeling_well_your_their_symptoms_may_be_related_to_covid_19_you_they_also_have_medical_conditions_that_may_put_you_them_at_risk_of_becoming_more_seriously_ill">Sorry you (they) are not feeling well. Your (their) symptoms may be related to COVID-19. You (they) also have medical conditions that may put you (them) at risk of becoming more seriously ill.</string>
+    <string name="stay_home_keep_them_home_except_to_get_medical_care_n_n_do_not_go_to_work_school_or_public_areas_including_grocery_stores_pharmacies_or_restaurants_consider_delivery_options_for_food_and_medicine_n_do_not_use_public_transportation_or_ride_sharing"><![CDATA[Stay home (keep them home) except to get medical care. \n\n=>Do not go to work, school, or public areas including grocery stores, pharmacies, or restaurants. Consider delivery options for food and medicine.\n=>Do not use public transportation or ride sharing.]]></string>
+    <string name="if_you_they_feel_worse_and_you_think_it_is_an_emergency_call_8335_952_or_seek_medical_care_immediately">If you (they) feel worse, and you think it is an emergency, call 8335 / 952 or seek medical care immediately.</string>
+    <string name="consider_using_telehealth_services_if_available">Consider using telehealth services if available.</string>
+    <string name="learn_how_to_take_care_of_yourself_or_someone_else_who_is_sick">Learn how to take care of yourself or someone else who is sick.</string>
+    <string name="take_steps_to_help_protect_others_from_getting_sick">Take steps to help protect others from getting sick.</string>
+
+    <string name="personal_information">Personal Information</string>
+    <string name="full_name">Full Name</string>
+    <string name="user_name">User Name</string>
+    <string name="passward">Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="birth_day">Birth Day</string>
+    <string name="register">Register</string>
+    <string name="survival_rate_calculator">Survival Rate Calculator</string>
+    <string name="age_group">Age Group</string>
+    <string name="sex">sex</string>
+    <string name="do_you_have_any_of_these_conditions">Do you have any of these conditions?</string>
+    <string name="cardiovascular_disease">Cardiovascular disease</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="chronic_respiratory_disease">Chronic respiratory disease</string>
+    <string name="hypertension">Hypertension</string>
+
+    <string name="you_have_an_estimated_31_53_chance_of_dying_from_covid_19_if_infected">You have an estimated 31.53% chance of dying from  Covid-19 if infected</string>
+    <string name="please_note_this_is_just_an_estimation_and_not_an_absolute_assessment_of_the_effects_covid_19_might_have_on_you">Please note this is just an estimation, and not an absolute assessment of the effects Covid-19 might have on you.</string>
+    <string name="check_survival_rate">Check Survival Rate</string>
+    <string name="who_prevenation">WHO Prevention</string>
+    <string name="wku_banner">WKU Banner</string>
+    <string name="country_name">Country Name</string>
+    <string name="today_s_case">Today\'s Case:</string>
+    <string name="deaths">Deaths:</string>
+    <string name="total_case">Total Case:</string>
+    <string name="recovered">Recovered:</string>
+
+    <string name="when_properly_worn_medical_masks_won_t_make_you_breathe_in_too_little_oxygen_or_too_much_carbon_dioxide">When properly worn, medical masks won\'t make you breathe in too little oxygen or too much carbon dioxide</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="before_using_the_checkup_please_read_the_terms_of_service_remember_that">Before using the Checkup, please read the Terms of Service. Remember that:</string>
+    <string name="checkup_is_not_a_diagnosis_checkup_is_for_informational_purposes_only_and_does_not_represent_in_any_way_a_qualified_medical_opinion_checkup_and_its_potential_results_are_entirely_based_on_who_and_cdc_guidelines_concerning_covid_19_only">Checkup is not a diagnosis. Checkup is for informational purposes only and does not represent, in any way, a qualified medical opinion. Checkup and its potential results are entirely based on WHO and CDC guidelines concerning COVID-19 only.</string>
+    <string name="if_this_is_an_emergency_call_your_local_emergency_number_immediately_do_not_proceed_with_this_checkup_tool_medical_attention_is_required_immediately">If this is an emergency, call your local emergency number immediately. Do not proceed with this Checkup tool. Medical attention is required immediately.</string>
+    <string name="your_data_is_safe_information_that_you_provide_is_anonymous_and_not_shared_with_anyone">Your data is safe. Information that you provide is anonymous and not shared with anyone.</string>
+    <string name="i_have_read_and_accept_the_terms_of_service_and_privacy_policy">I have read and accept the Terms of Service and Privacy Policy.</string>
+
+    <string name="are_you_breathing_very_fast">Are you breathing very fast?</string>
+    <string name="ministry_of_health_ethiopia">Ministry of Health Ethiopia</string>
+    <string name="free_call_center">Free Call Center</string>
+    <string name="addis_ababa">Addis Ababa</string>
+    <string name="dire_dewa">Dire Dewa</string>
+    <string name="ethio_telecom">Ethio Telecom</string>
+    <string name="oromia">Oromia</string>
+    <string name="amhara">Amhara</string>
+    <string name="tigray">Tigray</string>
+    <string name="somalia">Somalia</string>
+    <string name="snnpr">SNNPR</string>
+    <string name="hareri">Hareri</string>
+    <string name="afar">Afar</string>
+    <string name="gambela">Gambela</string>
+    <string name="benishangul">Benishangul</string>
+    <string name="do_you_have_any_of_the_following_symptoms">Do you have any of the following symptoms?</string>
+    <string name="fatigue">Fatigue</string>
+    <string name="muscle_pain">Muscle pain</string>
+    <string name="chills">Chills</string>
+    <string name="headache">Headache</string>
+    <string name="diarrhea">Diarrhea</string>
+    <string name="nausea">Nausea</string>
+    <string name="sore_throat">Sore Throat</string>
+    <string name="impaired_taste_or_smell">Impaired taste or smell</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="have_you_had_close_contact_with_a_person_with_confirmed_or_probable_covid_19_in_the_past_14_days">Have you had close contact with a person with confirmed or probable COVID-19 in the past 14 days?</string>
+    <string name="select_one_answer">Select one answer.</string>
+    <string name="i_have_provided_direct_care_to_such_a_person_without_the_use_of_a_protective_mask_and_gloves">I have provided direct care to such a person, without the use of a protective mask and gloves</string>
+    <string name="i_had_direct_physical_contact_with_such_a_person">I had direct physical contact with such a person</string>
+    <string name="i_had_face_to_face_contact_with_such_a_person_within_1_meter_3_feet_for_longer_than_15_minutes">I had face-to-face contact with such a person within 1 meter (3 feet) for longer than 15 minutes</string>
+    <string name="other_type_of_contact">Other type of contact</string>
+
+    <string name="what_does_it_mean">What does it mean?</string>
+    <string name="are_you_coughing_up_blood">Are you coughing up blood?</string>
+    <string name="covid_19_ethiopian_regional_data">Covid-19 Ethiopian Regional Data</string>
+    <string name="covid_19_et">Covid-19 ET</string>
+
+    <string name="critical">Critical:</string>
+    <string name="active_case">Active Case:</string>
+    <string name="how_high_is_your_fever">How high is your fever?</string>
+    <string name="select_one_answer_in_each_row">Select one answer in each row.</string>
+    <string name="between_37_5_c_and_38_c_99_5_f_and_100_4_f">Between 37.5°C and 38°C (99.5°F and 100.4°F)</string>
+    <string name="between_38_c_and_40_c_100_4_f_and_104_f">Between 38°C and 40°C (100.4°F and 104°F)</string>
+    <string name="over_40_c_104_f">Over 40°C (104°F)</string>
+    <string name="i_haven_t_taken_my_temperature">I haven’t taken my temperature</string>
+    <string name="what_is_your_sex">What is your sex?</string>
+    <string name="wear_a_mask_save_lives">Wear a mask.Save lives.</string>
+    <string name="wear_a_mask">Wear a mask.</string>
+    <string name="clean_your_hands">Clean your hands</string>
+    <string name="keep_a_safe_distance">Keep a safe distance</string>
+    <string name="know_how_it_spreads">Know how it spreads</string>
+    <string name="wash_your_hands_often">Wash your hands often</string>
+    <string name="avoid_close_contact">Avoid close contact</string>
+    <string name="cover_your_mouth_and_nose_with_mask">Cover your mouth and nose with mask</string>
+    <string name="cover_coughs_and_sneezes">Cover coughs and sneezes</string>
+    <string name="clean_and_disinfect">Clean and disinfect</string>
+    <string name="monitor_your_health_daily">Monitor Your Health Daily</string>
+
+    <string name="q_amp_a_on_coronaviruses_covid_19"><![CDATA[Q&A on coronaviruses (COVID-19)]]></string>
+    <string name="what_is_corona_viruss">What is Corona Viruss?</string>
+    <string name="what_is_covid_19">What is Covid-19</string>
+    <string name="what_are_the_syptoms_of_covid_19">What are the syptoms of covid-19</string>
+    <string name="what_should_i_do_if_i_have_covid19_symptom_and_when_should_i_seek_medical_care">What should I do if I have COVID19 symptom and when should I seek medical Care?</string>
+    <string name="how_does_covid_19_spreads">How does Covid-19 spreads?</string>
+    <string name="can_covid_19_be_cought_from_a_person_who_has_no_symptoms">Can COVID-19 be cought from a person who has no symptoms?</string>
+    <string name="how_can_we_protect_others_and_ourselves_if_we_don_t_know_who_is_infected">How can we protect others and ourselves if we don\'t know who is infected?</string>
+    <string name="what_should_i_do_if_i_have_come_in_close_contact_with_someone_who_has_covid_19">What should I do if I have come in close contact with someone who has COVID-19?</string>
+    <string name="what_does_it_mean_to_self_isolate">What does it mean to self-isolate?</string>
+    <string name="what_is_the_difference_between_self_isolation_selef_quarantine_and_distancing">What is the difference between self-isolation, selef-quarantine and distancing?</string>
+    <string name="what_should_i_do_if_i_have_no_symptom_but_i_thnk_i_have_been_exposed_to_covid_19_what_does_it_mean_to_self_quarantine">What should I do if I have no symptom, but I thnk I have been exposed to COVID-19? what does it mean to self-quarantine?</string>
+    <string name="can_children_or_adolescent_cathc_covid_19">Can children or adolescent cathc COVID-19?</string>
+    <string name="what_can_i_do_to_protect_my_self_and_prevent_the_spread_of_diseases">What can I do to protect my self and prevent the spread of diseases?</string>
+    <string name="is_there_a_vaccine_drug_or_treatment_for_covid_19">Is there a vaccine, drug or treatment for COVID-19?</string>
+    <string name="doe_who_recommend_wearing_medical_masks_to_prevent_sprread_of_covid_19">Doe WHO recommend wearing medical masks to prevent sprread of COVID-19?</string>
+    <string name="how_to_properly_wear_a_medical_mask">How to properly wear a medical mask?</string>
+    <string name="recommendation_quarantine">Recommendation Quarantine</string>
+    <string name="your_symptoms_currently_do_not_suggest_that_you_have_covid_19_however_according_to_the_who_and_cdc_guidelines_it_is_strongly_recommended_that_you_keep_yourself_separated_from_others_for_the_next_14_days">Your symptoms currently do not suggest that you have COVID-19. However, according to the WHO and CDC guidelines, it is strongly recommended that you keep yourself separated from others for the next 14 days.</string>
+
+    <string name="what_should_you_do">What should you do?</string>
+    <string name="covid_19_symptoms">Covid-19 Symptoms</string>
+    <string name="fever">FEVER</string>
+    <string name="dry_cough">DRY COUGH</string>
+    <string name="tiredness">TIREDNESS</string>
+    <string name="shortness_of_breath">SHORTNESS OF BREATH</string>
+    <string name="vomiting">VOMITING</string>
+    <string name="diarrhea2">DIARRHEA</string>
+    <string name="lose_of_taste_small">LOSE OF TASTE/SMALL</string>
+    <string name="please_select_all_statements_that_apply_to_you">Please select all statements that apply to you</string>
+    <string name="active_cancer">Active Cancer</string>
+    <string name="obesity">Obesity</string>
+    <string name="long_term_stay_at_a_care_facility_or_nursing_home">Long-term stay at a care facility or nursing home</string>
+
+    <string name="diabets">Diabets</string>
+
+    <string name="history_of_chronic_lung_disease">History of chronic lung disease</string>
+    <string name="history_of_chronic_liver_disease">History of chronic liver disease</string>
+    <string name="history_of_chronic_kidney_disease">History of chronic kidney disease</string>
+    <string name="do_you_have_any_of_the_following_symptoms_please_only_select_new_symptoms_that_are_not_related_to_your_chronic_diseases">Do you have any of the following symptoms? Please only select new symptoms that are not related to your chronic diseases.</string>
+    <string name="are_your_symptoms_rapidly_worsening">Are your symptoms rapidly worsening?</string>
+
+    <string name="stop_the_spread_of_germs">Stop the Spread of Germs</string>
+    <string name="help_prevent_the_spread_of">Help prevent the spread of</string>
+    <string name="respiratory_diseases_like_covid_19">respiratory diseases like COVID-19</string>
+    <string name="stay_at_least_6_feet_about_2_arms_length_from_other_people">Stay at least 6 feet (about 2 arms’ length) from other people.</string>
+    <string name="cover_your_cough_or_sneeze_with_a_tissue_then_throw_the_tissue_in_the_trash_and_wash_your_hands">Cover your cough or sneeze with a tissue, then throw the tissue in the trash and wash your hands</string>
+    <string name="when_in_public_wear_a_mask_over_your_nose_and_mouth">When in public, wear a mask over your nose and mouth.</string>
+    <string name="do_not_touch_your_eyes_nose_and_mouth">Do not touch your eyes, nose, and mouth.</string>
+    <string name="clean_and_disinfect_frequently_touched_objects_and_surfaces">Clean and disinfect frequently touched objects and surfaces.</string>
+    <string name="stay_home_when_you_are_sick_except_to_get_medical_care">Stay home when you are sick, except to get medical care.</string>
+    <string name="wash_your_hands_often_with_soap_and_water_for_at_least_20_seconds">Wash your hands often with soap and water for at least 20 seconds..</string>
+    <string name="cover_coughs_and_sneezess">Cover Coughs and Sneezes</string>
+    <string name="that_can_make_you_and_others_sick">that can make you and others sick!</string>
+    <string name="cover_your_mouth_and_nose_with_atissue_when_you_sneeze_or_cough">Cover your mouth and nose with atissue when you sneeze or cough.</string>
+    <string name="if_you_don_t_have_a_tissue_use_your_elbow">If you don’t have a tissue, use your elbow.</string>
+    <string name="wahs_hands_often_especially_after_coughing_or_snizing">Wash hands often, especially after coughing or snizing.</string>
+    <string name="what_your_test_results_mean">What Your Test Results Mean</string>
+    <string name="if_you_test_positive_for_covid_19">If you test positive for COVID-19</string>
+    <string name="take_steps_to_help_prevention_the_spread_of_covid_19">Take Steps To Help Prevention The Spread of COVID-19</string>
+    <string name="stay_home">STAY HOME</string>
+    <string name="do_not_leave_your_home_except_to_get_medical_care_do_not_visit_public_areas">Do not leave your home, except to get medical care. Do not visit public areas.</string>
+    <string name="stay_in_touch_withyour_doctor">STAY IN TOUCH WITHYOUR DOCTOR.</string>
+    <string name="get_rest_and_stay_hydrated">GET REST and STAY HYDRATED</string>
+    <string name="take_over_the_counter_medicines_such_as_acetaminophen_to_help_you_feel_better">Take over the counter medicines, such as acetaminophen, to help you feel better.</string>
+    <string name="seperate_your_self_from_other_people">SEPERATE YOUR SELF FROM OTHER PEOPLE.</string>
+    <string name="as_much_as_possible_stay_in_a_specifc_room_and_away_from_other_people_and_pets_in_your_home">As much as possible, stay in a specifc room and away from other people and pets in your home.</string>
+    <string name="if_you_test_negative_for_covid_19">If you test negative for COVID-19</string>
+    <string name="_9824_you_probably_were_not_infected_at_the_time_your_sample_was_collected">♠You probably were not infected at the time your sample was collected.</string>
+    <string name="_9824_however_that_does_not_mean_you_will_not_get_sick">♠However, that does not mean you will not get sick</string>
+    <string name="_9824_it_is_possible_that_you_were_very_early_in_your_infection_when_your_sample_was_collected_and_that_you_could_test_positive_later">♠It is possible that you were very early in your infection when your sample was collected and that you could test positive later.</string>
+
+    <string name="disease_weeaken_immune_system_detail">A weakened immune system can be caused by many factors, e.g., cancer treatment, bone marrow or organ transplantation, poorly controlled HIV/AIDS or some congenital diseases. Also, it may be caused by prolonged use of immunosuppressant drugs such as corticosteroids, or drugs used for rheumatoid arthritis, psoriasis, and other autoimmune illnesses.</string>
+    <string name="treatment_and_awareness">Treatment and Awareness</string>
+
+    <string name="obesity_detail">A person is considered obese when his or her body mass index (BMI) exceeds 30.\n\nCheck BMI Calculator in this app</string>
+    <string name="analyzing_your_result">Analyzing your result</string>
+    <string name="diseases_or_drugs_that_weaken_immune_system">Diseases or drugs that weaken immune system</string>
+    <string name="a_weakened_immune_system_can_be_caused_by_many_factors_e_g_cancer_treatment_bone_marrow_or_organ_transplantation_poorly_controlled_hiv_aids_or_some_congenital_diseases_also_it_may_be_caused_by_prolonged_use_of_immunosuppressant_drugs_such_as_corticosteroids_or_drugs_used_for_rheumatoid_arthritis_psoriasis_and_other_autoimmune_illnesses">A weakened immune system can be caused by many factors, e.g., cancer treatment, bone marrow or organ transplantation, poorly controlled HIV/AIDS or some congenital diseases. Also, it may be caused by prolonged use of immunosuppressant drugs such as corticosteroids, or drugs used for rheumatoid arthritis, psoriasis, and other autoimmune illnesses.</string>
+    <string name="region">Region</string>
+    <string name="total_number_of_case">Total Number of Case:</string>
+    <string name="number_of_death">Number of Death:</string>
+    <string name="dash_board">Dash Board</string>
+    <string name="covid_symptom">Covid Symptom</string>
+    <string name="covid_prevention">Covid Prevention</string>
+    <string name="covid_treatment">Covid Treatment</string>
+    <string name="covid_19_self_checker">Covid-19 Self-Checker</string>
+    <string name="covid_19_risk_assesment">Covid-19 Risk Assessment</string>
+    <string name="body_mas_index">Body Mas Index</string>
+    <string name="call_center">Call Center</string>
+    <string name="q_amp_a_on_covid_19"><![CDATA[Q&A on Covid-19]]></string>
+    <string name="contact_us">Contact Us</string>
+    <string name="share">Share</string>
+    <string name="title_not_set">Title not set</string>
+    <string name="detail_not_set">Detail not set</string>
+    <string name="rapid_breathing">Rapid breathing</string>
+    <string name="rapid_breathing_detail">Rapid breathing: Breathing more than 20 breaths in one minute.</string>
+    <string name="person_with_confirmed_or_probable_covid_19">Person with confirmed or probable COVID-19</string>
+    <string name="person_with_confirmed_or_probable_covid_19_detail">By “probable” we mean the symptomatic person suspected by doctors of having COVID-19, but not been tested or result is inconclusive. By \"confirmed\" we mean the symptomatic or asymptomatic person who tested positive.</string>
+
+    <string name="diseases_or_drugs_that_weaken_immune_system_detail">A weakened immune system can be caused by many factors, e.g., cancer treatment, bone marrow or organ transplantation, poorly controlled HIV/AIDS or some congenital diseases. Also, it may be caused by prolonged use of immunosuppressant drugs such as corticosteroids, or drugs used for rheumatoid arthritis, psoriasis, and other autoimmune illnesses.</string>
+
+    <string name="obesity_detail_java">A person is considered obese when his or her body mass index (BMI) exceeds 30. \n You can measure BMI in this app BMI calculator</string>
+
+    <string name="cardiovascular_disease_detail">It’s a class of diseases affecting the heart and blood vessels. This condition: includes, e.g., heart failure, coronary artery disease, severe hypertension, or other heart diseases. Also, select this if you ever had a heart attack or stroke.</string>
+
+    <string name="history_of_chronic_lung_disease_detail">Chronic lung diseases are disorders that affect the lungs and other parts of the respiratory system. Disorders include Chronic Obstructive Pulmonary Disease, moderate and severe Asthma, and other lung conditions.</string>
+
+    <string name="history_of_chronic_liver_disease_detail">A long-term liver disease due to alcoholism, infections, chronic inflammation, or congenital diseases, leading to loss of function, cirrhosis and other complications.</string>
+
+    <string name="history_of_chronic_kidney_disease_detail">Chronic kidney disease is a gradual loss of kidney function to filter blood. It develops slowly over time, causing a waste build-up in your body.</string>
+    <string name="fever_detail">Fever is an elevated body temperature above 37.5°C or 99.5°F. Select this symptom, even if you haven’t measured your temperature, but you feel hot, feverish, or seem flushed.</string>
+    <string name="shortness_of_breath_detail">Shortness of breath: When you have trouble breathing and you cannot get enough air into your lungs. Often accompanied by chest tightness, breathlessness or a feeling of suffocation.</string>
+    <string name="symptoms_quickly_worsening">Symptoms quickly worsening</string>
+    <string name="symptoms_quickly_worsening_detail">Symptoms quickly worsening: You’re feeling significantly worse than previously, say just an hour ago. Your symptoms are not improving, despite your efforts.</string>
+    <string name="stay_home_and_monitor_your_symptoms">Stay home and monitor your symptoms.</string>
+    <string name="your_symptoms_do_not_suggest_that_you_have_the_covid_19_still">Your symptoms do not suggest that you have the COVID-19. Still, it is better if you recover from your illness or symptoms at home for your and other people’s safety. Remember that your symptoms may also result from other diseases and may require medical consultation - this interview targets the COVID-19 infection. If your symptoms seem severe and you are worried, contact your doctor or local health authorities.</string>
+    <string name="prolonged_direct_contact_with_a_person_suspected_of_having_covid_19">Prolonged direct contact with a person suspected of having COVID-19</string>
+    <string name="quarantine">Quarantine</string>
+    <string name="your_symptoms_currently_do_not_suggest_that_you_have_covid_19_however_according_to_the_who_and_cdc_guidelines">Your symptoms currently do not suggest that you have COVID-19. However, according to the WHO and CDC guidelines, it is strongly recommended that you keep yourself separated from others for the next 14 days.</string>
+    <string name="direct_physical_contact_with_a_person_suspected_of_having_covid_19">Direct physical contact with a person suspected of having COVID-19</string>
+
+
+    <string name="coughing_up_blood">Coughing up blood</string>
+    <string name="caring_for_covid_19_suspected_person_without_protection">Caring for COVID-19 suspected person without protection</string>
+    <string name="direct_physical_contact_with_a_person_suspected_of_having_covif_19">Direct physical contact with a person suspected of having COVID-19</string>
+
+    <string name="your_symptoms_are_worrisome_and_may_be_related_to_covid_19">Your symptoms are worrisome and may be related to COVID-19. Call your local COVID-19 related health care number. Depending on the country, there may be the a telephone line issued by Ministry of Health Department</string>
+    <string name="analyzing_your_symptoms">Analyzing your symptoms</string>
+    <string name="wait_while_loading">Wait while loading...</string>
+    <string name="your_symptoms_are_very_serious_and_you_may_have_covid_19">Your symptoms are very serious and you may have COVID-19.</string>
+    <string name="call_a_doctor">Call a doctor</string>
+    <string name="your_answers_do_not_suggest_that_you_have_the_covid_19">Your answers do not suggest that you have the COVID-19. However, your symptoms are worrisome and require medical consultation.</string>
+    <string name="consult_your_health_care_provider_avoid_all_contacts">Consult your health care provider.\n Avoid all contacts</string>
+
+
+    <string name="call_the_emergency_number_avoid_all_contact">Call the emergency number. \n Avoid all contact.</string>
+
+
+    <string name="error_occured">Error Occured</string>
+    <string name="search_by_country">Search by Country</string>
+    <string name="last_sysnced_reginonal_data_loaded_no_internet">Last Sysnced Reginonal Data Loaded: No Internet</string>
+    <string name="covid_cases_et">COVID-19 Cases ET</string>
+    <string name="covid_et_regional">Covid ET Regional</string>
+    <string name="covid_19_world">COVID-19 World</string>
+    <string name="no_internet_last_data_loaded">No Interent: Last synced data loaded</string>
+    <string name="please_insert_username_and_password">Please Insert usename and Password</string>
+    <string name="login_successfully">Login Successfully</string>
+    <string name="wrong_username_or_password">Wrong User Name or Password</string>
+    <string name="contact_a_medical_provider"><![CDATA[Contact a medical provider.\n=>This tool is intended for people 2 years or older. Please call the child’s medical provider, clinician advice line, or telemedicine provider.]]></string>
+    <string name="ask_parental_gidance">Please ask your parent or guardian to help you complete these questions.</string>
+    <string name="ask_a_parent_or_guardian_to_assist_you_or_if_taking_by_yourself_share_these_results_with_your_parent_guardian">Ask a parent or guardian to assist you, or if taking by yourself, share these results with your parent/guardian.</string>
+    <string name="all_fields_are_required">All Fields are Required</string>
+    <string name="registration_successfully">Registration Successfully</string>
+    <string name="you_are_not_registred">You are not Registred</string>
+    <string name="password_doesnt_match">Password does\'t match</string>
+    <string name="you_should_be_fine">You should be fine</string>
+    <string name="tale_extra_precaution">Take Extra precaution</string>
+    <string name="you_are_at_risk">You are at risk</string>
+    <string name="you_have_an_estimated">You have an estimated</string>
+    <string name="change_of_dying_from_covid_19_if_infected">% chance of dying from covid-19 if infected</string>
+    <string name="who_prevention_tip">WHO Prevention Tips</string>
+    <string name="who_test_result_tip">WHO Test Result Tip</string>
+
+    <string name="high_fever_indicates">The following temperatures or higher indicate a <b>fever</b>: \n
+        <ul>
+            \t<li><b>Adults and children:</b> 100.4°F (38°C)</li>\n
+            \t<li> <b>Babies (under 1 year):</b> 99°F (37.2°C)  or 100.4°F (38°C) </li>
+         </ul>
+    </string>
+
+    <string name="symptoms_associated_with_a_fever">The general symptoms associated with a fever can include: \n
+        <ul>
+            \t<li> chills </li>\n
+            \t<li> headache </li> \n
+            \t<li> sweating or feeling flushed </li> \n
+            \t<li> lack of appetite </li> \n
+            \t<li> dehydration </li> \n
+            \t<li> weakness or lack of energy </li>
+         </ul>
+    </string>
+
+    <string name="low_grade_vs_high_grade_fevers">Low-grade vs. high-grade fevers: \n
+        <ul>
+            <li> A low-grade fever for adults and children is when your body temperature is elevated slightly above normal. This is generally between 98.8°F (37.1°C) and 100.3°F (38°C). </li>\n
+            <li> People with high-grade fevers should seek medical advice. For adults, this is an oral temperature of 103°F (39.4°C). For children over 3 months old, this is a rectal temperature of 102°F (38.9°F) or higher. </li>
+         </ul>
+    </string>
+
+    <string name="tips_for_treating_a_fever">
+        <ul>
+            <li> <b>Avoid the heat</b>. If you can, keep the room temperature cool. Swap out thicker materials for light, breathable fabrics. Opt for a sheet or light blanket at night.</li>\n
+            <li> <b>Stay hydrated</b>. Replenishing lost fluids is key. Water is always a good option, but broth or a rehydration mix like Pedialyte can also be beneficial. </li>
+            <li> <b>Take a fever reducer</b>. Fever-reducing medications like ibuprofen (Advil) and acetaminophen (Tylenol) can also help alleviate symptoms. Talk to your doctor before offering these medications to a baby or child to get the OK and correct dose. </li> \n
+            <li> <b>Rest.</b> Activity can raise your body temperature, so take things slow while you wait for the fever to pass.  </li>
+
+        </ul>
+    </string>
+    <string name="do_you_have_a_fever_how_to_tell_and_what_you_should_do_next">Do You Have a Fever? How to Tell and What You Should Do Next</string>
+    <string name="a_fever_is_when_your_body_temperature_is_higher_than_normal_the_average_body_temperature">A fever is when your body temperature is higher than normal. The average body temperature is around 98.6°F (37°C).</string>
+    <string name="your_average_body_temperature_may_be_higher_or_lower_than_that_it_can_also_fluctuate_slightly_throughout_the_day">Your average body temperature may be higher or lower than that. It can also fluctuate slightly throughout the day. These fluctuations can vary with age and how active you are. Your body temperature is typically highest in the afternoon.</string>
+    <string name="when_your_body_temperature_rises_higher_than_normal_it_may_be">When your body temperature rises higher than normal, it may be a sign that your body is in the process of fighting off an infection. It’s usually not a cause for alarm.</string>
+    <string name="what_are_the_symptoms_of_a_fever">What are the symptoms of a fever?</string>
+    <string name="low_grade_vs_high_grade_fevers_title">Low-grade vs. high-grade fevers</string>
+    <string name="tips_for_treating_a_fever_title">Tips for treating a fever</string>
+    <string name="what_does_my_type_of_cough_mean">What Does My Type of Cough Mean?</string>
+
+    <string name="cough_is_an_important_defensive_reflex_that_helps_protect_your_body">A cough is an important defensive reflex that helps protect your body from irritants like: \n
+        <ul>
+            \t<li> mucus </li>\n
+            \t<li> smoke </li> \n
+            \t<li> allergens, such as dust, mold, and pollen </li>
+         </ul>
+    </string>
+    <string name="coughing_is_your_body_s_way_of_getting_rid_of_an_irritant">Coughing is your body’s way of getting rid of an irritant.</string>
+    <string name="when_something_irritates_your_throat_or_airway_your_nervous_system_sends_an_alert_to_your_brain_your_brain_responds_by_telling_the_muscles_in_your_chest_and_abdomen_to_contract_and_expel_a_burst_of_air">When something irritates your throat or airway, your nervous system sends an alert to your brain. Your brain responds by telling the muscles in your chest and abdomen to contract and expel a burst of air.</string>
+    <string name="what_causes_a_cough">What causes a cough?</string>
+
+    <string name="what_causes_a_cough_list">A cough can be caused by several conditions, both temporary and permanent:\n
+        <ul>
+            \t<li> Clearing the throat </li>\n
+            \t<li> Viruses and bacteria </li> \n
+            \t<li> Smoking </li>\n
+            \t<li> Asthma </li>\n
+            \t<li> Medicines </li>
+         </ul>
+    </string>
+    <string name="covid_19_and_dry_cough">COVID-19 and dry cough</string>
+
+    <string name="cdc_cough_guideline">If you’re sick and think you may have COVID-19, the Centers for Disease Control and Prevention (CDC)Trusted Source recommend the following::\n
+        <ul>
+            \t<li> stay home and avoid public places</li>\n
+            \t<li> separate yourself from all family members as much as possible </li> \n
+            \t<li> cover your coughs and sneezes </li>\n
+            \t<li> wear a cloth mask if you’re around other people </li>\n
+            \t<li> stay in touch with your doctor </li>\n
+            \t<li> call ahead if you end up seeking medical attention </li>\n
+            \t<li> wash your hands often </li>\n
+            \t<li> avoid sharing household items with other people in the house </li>\n
+            \t<li> disinfect common surfaces often </li>\n
+            \t<li> monitor your symptoms </li>
+         </ul>
+    </string>
+
+    <string name="cdc_cough_guideline_syptom_serious">You should seek emergency medical attention if you experience any of the following symptoms:\n
+        <ul>
+            \t<li> trouble breathing</li>\n
+            \t<li> heaviness or tightness in the chest </li> \n
+            \t<li> bluish lips </li>\n
+            \t<li> confusion </li>
+         </ul>
+    </string>
+
+    <string name="dry_cough_is_one_of_the_most_common_symptoms_of_covid_19_other_telltale_signs_of_covid_19_include_fever_and_shortness_of_breath">Dry cough is one of the most common symptoms of COVID-19. Other telltale signs of COVID-19 include fever and shortness of breath.</string>
+    <string name="remedies_for_a_dry_cough">Remedies for a dry cough</string>
+
+    <string name="remedies_for_dry_cough_depend_on_its_cause">Remedies for dry cough depend on its cause:\n
+        <ul>
+            \t<li> <b>Babies and toddlers</b>. In babies and toddlers, dry coughs typically don’t require treatment. A humidifier can help make them more comfortable. To treat croup breathing, bring your child into a bathroom full of steam or outside in the cool night air.</li>\n
+            \t<li> <b>Older children</b>. A humidifier will help keep their respiratory system from drying out. Older children can also use cough drops to soothe sore throats. If their condition continues for more than 3 weeks, talk with your doctor about other causes. Your child may need antibiotics, antihistamines, or asthma medications. </li> \n
+            \t<li> <b>Adults</b>. A chronic, long-lasting dry cough in adults can have many possible causes. Tell your doctor about symptoms such as pain and heartburn. You may need antibiotics, antacids, asthma medications, or further testing. Tell your doctor about all medications and supplements that you’re currently taking. </li>
+         </ul>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="causes_of_fatigue_and_how_to_manage_it">Causes of Fatigue and How to Manage It</string>
+    <string name="fatigue_is_a_term_used_to_describe_an_overall_feeling">Fatigue is a term used to describe an overall feeling of tiredness or lack of energy. It isn’t the same as simply feeling drowsy or sleepy. When you’re fatigued, you have no motivation and no energy. Being sleepy may be a symptom of fatigue, but it’s not the same thing.</string>
+    <string name="fatigue_is_a_common_symptom_of_many_medical_conditions">Fatigue is a common symptom of many medical conditions that range in severity from mild to serious. It’s also a natural result of some lifestyle choices, such as lack of exercise or poor diet.</string>
+    <string name="if_your_fatigue_doesn_t_resolve_with_proper_rest_and_nutrition_or_you_suspect_it_s_caused_by_an_underlying">If your fatigue doesn’t resolve with proper rest and nutrition, or you suspect it’s caused by an underlying physical or mental health condition, see your doctor. They can help diagnose the cause of your fatigue and work with you to treat it.</string>
+    <string name="what_causes_fatigue">What causes fatigue?</string>
+
+    <string name="there_are_many_potential_causes_of_fatigue">There are many potential causes of fatigue. They can be divided into three general categories:\n
+        <ul>
+            \t<li> lifestyle factors</li>\n
+            \t<li> physical health conditions </li> \n
+            \t<li> mental health issues </li>
+         </ul>
+    </string>
+
+    <string name="lifestyle_factors"> <b>Lifestyle factors</b>\nIf you’re experiencing fatigue, your activities and other lifestyle choices may be the root cause. For example, fatigue can result from:\n
+        <ul>
+            \t<li> physical exertion</li>\n
+            \t<li> lack of physical activity </li> \n
+            \t<li> being overweight or obese </li> \n
+            \t<li> periods of emotional stress </li> \n
+            \t<li> taking certain medications, such as antidepressants</li> \n
+            \t<li> using alcohol on a regular basis </li> \n
+            \t<li> using illicit drugs, such as cocaine </li> \n
+            \t<li> consuming too much caffeine </li> \n
+            \t<li> not eating a nutritious diet </li>
+         </ul>
+    </string>
+
+    <string name="physical_health_conditions"> <b>Physical health conditions</b>\nMany medical conditions can also cause fatigue. Examples include:\n
+        <ul>
+            \t<li> anemia</li>\n
+            \t<li> arthritis </li> \n
+            \t<li> fibromyalgia </li> \n
+            \t<li> chronic fatigue syndrome </li> \n
+            \t<li> infections, such as cold and flu</li> \n
+            \t<li> Addison’s disease, a disorder that can affect your hormone levels </li> \n
+            \t<li> hypothyroidism, or underactive thyroid </li> \n
+            \t<li> hyperthyroidism, or overactive thyroid </li> \n
+            \t<li> sleep disorders, such as insomnia </li> \n
+            \t<li> eating disorders, such as anorexia </li> \n
+            \t<li> autoimmune disorders </li> \n
+            \t<li> congestive heart failure </li> \n
+            \t<li> chronic obstructive pulmonary disease (COPD) </li> \n
+            \t<li> kidney disease </li> \n
+            \t<li> liver disease </li> \n
+            \t<li> diabetes </li>
+         </ul>
+    </string>
+
+
+    <string name="mental_health_issues"> <b>Mental health issues</b>\nMental health conditions can also lead to fatigue:\n
+        <ul>
+            \t<li> For example, fatigue is a common symptom of anxiety</li>\n
+            \t<li> Depression, and  </li> \n
+            \t<li> Seasonal affective disorder. </li>
+         </ul>
+    </string>
+    <string name="what_are_some_lifestyle_changes_that_can_help_reduce_fatigue">What are some lifestyle changes that can help reduce fatigue?</string>
+    <string name="a_number_of_measures_can_help_lessen_fatigue_caused_by_daily_activities_to_help_boost_your_energy_levels_and_overall_health">A number of measures can help lessen fatigue caused by daily activities. To help boost your energy levels and overall health:</string>
+
+    <string name="recommendation_for_fatigue">
+        <ul>
+            <li> drink enough fluids to stay hydrated</li>\n
+            <li> practice healthy eating habits  </li> \n
+            <li> exercise on a regular basis </li>\n
+            <li> get enough sleep </li>\n
+            <li> avoid known stressors </li>\n
+            <li> avoid a work or social schedule that’s overly demanding </li>\n
+            <li> take part in relaxing activities, such as yoga </li>\n
+            <li> abstain from alcohol, tobacco, and other illicit drugs </li>\n
+         </ul>
+    </string>
+    <string name="symptoms_causes_and_treatment">Symptoms, Causes, and Treatment</string>
+    <string name="a_sore_throat_is_a_painful_dry_or_scratchy_feeling_in_the_throat">A sore throat is a painful, dry, or scratchy feeling in the throat.</string>
+
+    <string name="sore_throats_are_divided_into_types"> Sore throats are divided into types, based on the part of the throat they affect:\n
+        <ul>
+            \t<li> <b>Pharyngitis</b> affects the area right behind the mouth.</li>\n
+            \t<li> <b>Tonsillitis</b> is swelling and redness of the tonsils, the soft tissue in the back of the mouth.  </li> \n
+            \t<li> <b>Laryngitis</b> is swelling and redness of the voice box, or larynx. </li>
+         </ul>
+    </string>
+    <string name="sore_throat_symptoms">Sore throat symptoms</string>
+
+    <string name="sore_throat_symptoms_list"> The symptoms of a sore throat can vary depending on what caused it. A sore throat can feel:\n
+        <ul>
+            \t<li> Scratchy</li>\n
+            \t<li> Burning  </li> \n
+            \t<li> Raw </li> \n
+            \t<li> Dry </li> \n
+            \t<li> Tender </li> \n
+            \t<li> Irritated </li> \n
+         </ul>
+    </string>
+    <string name="causes_of_sore_throats">Causes of sore throats</string>
+
+    <string name="caluses_of_sore_throat"> Causes of sore throats range from infections to injuries. Here are the most common sore throat causes.\n
+        <ul>
+            \t<li> Colds, the flu, and other viral infections</li>\n
+            \t<li> Strep throat and other bacterial infections  </li> \n
+            \t<li> Allergies </li> \n
+            \t<li> Dry air </li> \n
+            \t<li> Smoke, chemicals, and other irritants </li> \n
+            \t<li> Injury </li> \n
+            \t<li> Gastroesophageal reflux disease (GERD) </li> \n
+            \t<li> Tumor </li>
+         </ul>
+    </string>
+    <string name="home_remedies_for_a_sore_throat">Home remedies for a sore throat</string>
+    <string name="you_can_treat_most_sore_throats_at_home_get_plenty_of_rest_to_give_your_immune_system_a_chance_to_fight_the_infection">You can treat most sore throats at home. Get plenty of rest to give your immune system a chance to fight the infection.</string>
+
+    <string name="home_remedies_for_a_sore_throat_list"> To relieve the pain of a sore throat:\n
+        <ul>
+            \t<li> Gargle with a mixture of warm water and 1/2 to 1 teaspoon of salt.</li>\n
+            \t<li> Drink warm liquids that feel soothing to the throat, such as hot tea with honey, soup broth, or warm water with lemon. Herbal teas are especially soothing to a sore throat  </li> \n
+            \t<li> Cool your throat by eating a cold treat like a popsicle or ice cream. </li> \n
+            \t<li> Suck on a piece of hard candy or a lozenge. </li> \n
+            \t<li> Turn on a cool mist humidifier to add moisture to the air. </li> \n
+            \t<li> Rest your voice until your throat feels better. </li>
+            \t<li> Tumor </li>
+         </ul>
+    </string>
+
+    <string name="why_am_i_having_trouble_breathing">Why Am I Having Trouble Breathing?</string>
+    <string name="experiencing_breathing_difficulty_describes_discomfort_when_breathing_and_feeling">Experiencing breathing difficulty describes discomfort when breathing and feeling as if you can’t draw a complete breath. This can develop gradually or come on suddenly. Mild breathing problems, such as fatigue after an aerobics class, don’t fall into this category.</string>
+    <string name="breathing_difficulties_can_be_caused_by_many_different_conditions">Breathing difficulties can be caused by many different conditions. They can also develop as a result of stress and anxiety.</string>
+
+    <string name="heart_conditions_that_can_cause_breathing_difficulty_list"> You may notice yourself feeling out of breath more often if you have a heart condition. This is because your heart is struggling to pump oxygen-rich blood to the rest of your body. There are a variety of possible conditions that can cause this problem:\n
+        <ul>
+            \t<li> <b>Coronary artery disease (CAD)</b> is a disease that causes the arteries that supply blood to the heart to narrow and harden. This condition leads to decreased blood flow to the heart, which can permanently damage the heart muscle.  </li>\n
+            \t<li> <b>A congenital heart disease</b>, sometimes called congenital heart defects, refers to inherited problems with the structure and function of the heart.   </li> \n
+            \t<li> <b>Arrhythmias</b> are types of irregular heartbeats, affecting the heart rhythm or heart rate, causing a heart to beat too fast or too slow. People with preexisting heart conditions are at higher risk for developing an arrhythmia. </li> \n
+            \t<li> <b>Congestive heart failure (CHF)</b> occurs when the heart muscle becomes weak and unable to pump blood efficiently throughout the body. This often leads to a buildup of fluid in and around the lungs.</li>
+         </ul>
+    </string>
+    <string name="heart_conditions_that_can_cause_breathing_difficulty2">Heart conditions that can cause breathing difficulty</string>
+
+    <string name="environmental_issues"> <b>Environmental factors</b> can also affect breathing, such as:\n
+        <ul>
+            \t<li> Allergies to dust, mold, or pollen </li>\n
+            \t<li> Stress and anxiety  </li> \n
+            \t<li> Blocked air passages from a stuffy nose or throat phlegm </li> \n
+            \t<li> Lowered oxygen intake from climbing to a high altitude </li>
+         </ul>
+    </string>
+
+
+    <string name="who_s_at_risk_for_breathing_difficulties">Who’s at risk for breathing difficulties?</string>
+    <string name="other_causes_of_breathing_difficulty">Other causes of breathing difficulty</string>
+
+    <string name="who_s_at_risk_for_breathing_difficulties_detail"> You’re at greater risk for breathing problems if you:\n
+        <ul>
+            \t<li> Experience constant stress </li>\n
+            \t<li> Have allergies  </li> \n
+            \t<li> Have a chronic lung or heart condition </li> \n
+         </ul>
+       \nObesity also increases the risk of breathing difficulties. Extreme physical exertion can also put you at risk for breathing problems, particularly when you exercise in intense spurts or at high altitudes.
+    </string>
+    <string name="what_treatment_options_are_available">What treatment options are available?</string>
+    <string name="lifestyle_changes">Lifestyle changes</string>
+    <string name="stress_reduction">Stress reduction</string>
+    <string name="if_having_a_stuffy_nose_exercising_too_hard_or_hiking_at_high_altitudes_causes_your_symptoms_your_breathing_is_likely_to_return_to_normal_if_you_re_otherwise_healthy_the_temporary_symptoms_will_resolve_once_your_cold_goes_away_you_stop_exercising_or_you_return_to_a_lower_altitude">If having a stuffy nose, exercising too hard, or hiking at high altitudes causes your symptoms, your breathing is likely to return to normal if you’re otherwise healthy. The temporary symptoms will resolve once your cold goes away, you stop exercising, or you return to a lower altitude.</string>
+
+    <string name="stress_reduction_detail"> If stress is causing your breathing problems, you can reduce stress by developing coping mechanisms. Just a few ways to relieve stress include:\n
+        <ul>
+            \t<li> Meditation </li>\n
+            \t<li> Counseling  </li> \n
+            \t<li> Exercise </li> \n
+         </ul>
+       \nListening to relaxing music or talking to a friend can also help you reset and refocus.
+    </string>
+    <string name="medication">Medication</string>
+    <string name="some_breathing_difficulties_are_symptoms">Some breathing difficulties are symptoms of serious heart and lung illnesses. In these cases, your doctor will prescribe medication and other treatments. If you have asthma, for example, you may need to use an inhaler immediately after experiencing breathing problems.</string>
+    <string name="less_common_symptoms_such_as_rash_nausea_vomiting_and_diarrhea">Less common symptoms such as rash, nausea, vomiting and diarrhea.</string>
+    <string name="partial_or_complete_loss_of_the_sense_of_smell_sense_of_taste_is_not_functioning_properly">Partial or complete loss of the sense of smell. Sense of taste is not functioning properly</string>
+</resources>

@@ -1,0 +1,713 @@
+<resources>
+    <string name="app_name">የኮቪድ -19 ህክምና</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="not_user_register_not">ተጠቃሚ አይደሉም? <u>አሁን መዝግብ!</u></string>
+    <string name="already_have_account_login">ቀድሞውኑ መለያ አለዎት?<u>ግባ!</u> </string>
+    <string name="navigation_drawer_open">የአሰሳ መሳቢያ ይክፈቱ</string>
+    <string name="navigation_drawer_close">የአሰሳ መሳቢያ ዝጋ</string>
+    <string name="nav_home">ምልክቶች</string>
+    <string name="nav_notification">መከላከያ መንገዶች</string>
+    <string name="nav_account">ሕክምና</string>
+    <string name="protect_yourself_and_others_around_you_by_knowing_the_facts_and_taking_appropriate_precautions_follow_advice_provided_by_your_local_health_authority">እውነታዎችን በማወቅ እና ተገቢውን ጥንቃቄ በማድረግ ራስዎን እና በዙሪያዎ ያሉትን ሌሎች ሰዎች ይጠብቁ ፡፡ በአከባቢዎ የጤና ባለስልጣን የሚሰጠውን ምክር ይከተሉ.</string>
+
+    <string-array name="Gender">
+        <item>ፆታ</item>
+        <item>ወንድ</item>
+        <item>ሴት</item>
+    </string-array>
+
+
+    <string name="country_prompt">አካባቢ ይምረጡ</string>
+    <string-array name="Region_arrays">
+        <item>የሚገኙበትን ክልል ይምረጡ</item>
+        <item>አዲስ አበባ</item>
+        <item>አፋር</item>
+        <item>አማራ</item>
+        <item>ቤኒሻንጉል-ጉሙዝ</item>
+        <item>ድሬዳዋ</item>
+        <item>ጋምቤላ</item>
+        <item>ሀረሪ</item>
+        <item>ኦሮሚያ</item>
+        <item>ሶማሊያ</item>
+        <item>ሲዳማ</item>
+        <item>ደቡብ</item>
+        <item>ትግራይ</item>
+    </string-array>
+
+
+    <string-array name="agegroup_arrays">
+        <item>እባክዎ ዕድሜዎን ይምረጡ</item>
+        <item>ከ 2 ዓመት በላይ</item>
+        <item>2 - 4</item>
+        <item>5 - 9</item>
+        <item>10 - 12</item>
+        <item>13 - 17</item>
+        <item>19 - 29</item>
+        <item>30 - 39</item>
+        <item>40 - 49</item>
+        <item>50 - 59</item>
+        <item>60 - 69</item>
+        <item>70 - 79</item>
+        <item>80 +</item>
+    </string-array>
+
+
+    <string name="bmi_calculator">የሰውነት ክብደት ማስያ</string>
+    <string name="your_weight_in_kg">ክብደት በኪሎ ግራም</string>
+    <string name="your_height_in_meter">ቁመት በሜትር</string>
+    <string name="calculate">አስላ</string>
+    <string name="your_result">ውጤት</string>
+    <string name="bmi_categories">የቢኤምአይ(BMI) ክብደት ምድቦች:</string>
+    <string name="underweight_less_than_18_5">አነስተኛ ክብደት = ቢኤምአይ ከ18.5 በታች</string>
+    <string name="normal_weight_18_5_24_9">ኖርማል ክብደት = ቢኤምአይ ከ18.5 እስከ 24.9</string>
+    <string name="overweight_25_29_9">ከመጠን በላይ ክብደት = ቢኤምአይ ከ25 እስከ 29.9</string>
+    <string name="obesity_bmi_of_30_or_greater">ከልክ ያለፈ ውፍረት = ቢኤምአይ 30 እና ከዛ በላይ</string>
+    <string name="languate_already_selected">ቋንቋ አስቀድሞ ተመርጧል!</string>
+
+    <string name="symptoms">ምልክቶች</string>
+    <string name="common_syptom_of_covid_19">ዋና ዋና የኮቪድ-19 ምልክቶች</string>
+    <string name="prevention">መከላከያ</string>
+    <string name="recommendations_to_prevent_covid_19">ኮቪድ-19ን ለመከላከል ማድረግ ያለብን ማሳሰቢያዎች</string>
+    <string name="treatment">ሕክምና</string>
+    <string name="treatment_tip_of_covid_19">የኮቪድ-19 ሕክምና ፍንጭ</string>
+    <string name="covid_19_cases">የኮቪድ 19 ኬዝ</string>
+    <string name="total_confirmed_recovered_and_deaths">በአጠቃላይ የተያዙ ፣ ያገገሙ ፣ እና የሞቱ</string>
+    <string name="risk_assesment">የኮቪድ-19 ስጋት መገምገሚያ</string>
+    <string name="checkup_results_based_on_who_and_cdc_guideline">በ WHO እና በሲዲሲ መመሪያ መሰረት ውጤትዎን ቼክ ያድርጉ</string>
+    <string name="self_checker">ራስን ቼክ ማድረግ</string>
+    <string name="self_checker_is_an_interactive_clinical_assessment_tool_that_will_assist_individuals">ራስን ቼክ ማድረግ ግለሰቦችን የሚረዳ በይነተገናኝ ክሊኒካዊ ግምገማ መሳሪያ ነው</string>
+    <string name="survival_rate">የመትረፍ መጠን</string>
+    <string name="survival_rate_calculator_based_on_world_data">በአለም መረጃ ላይ በመመርኮዝ የመትረፍ መጠን ማስያ</string>
+    <string name="fascts_on_covid">ስለ ኮቪድ-19 እውነታዎች</string>
+    <string name="facts_common_rummor_about_covid">እውነታዎች,እና የተሳሳቱ አመለካከቶች ስለ ኮቪደ-19</string>
+    <string name="covid_case_et">ኮቪድ ኬዝ በኢትዮጵያ</string>
+    <string name="covid_regional">ኮቪድ በክልሎች</string>
+    <string name="covid_case_world">ኮቪድ ኬዝ በአለም</string>
+    <string name="facts_about_covid_19">ስለ ኮቪድ-19 እውነታዎች</string>
+    <string name="these_facts_come_from_the_world_health_organization_they_correct_common_untrue_rumors_about_coronavirus_covid_19">እነዚህ እውነታዎች ከዓለም ጤና ድርጅት የተወሰዱ ናቸው ፡፡ ስለ ኮቪድ-19 የተለመዱ እና ከእውነታው የራቁ ግንዛቤዎችን ያስተካክላሉ.</string>
+    <string name="when_properly_worn_medical_masks">የሕክምና ጭምብሎች በትክክል ከተለበሱ በጣም ትንሽ ኦክስጅንን ወይም በጣም ብዙ የካርቦን ዳይኦክሳይድን እንዲተነፍሱ አያደርጉም.</string>
+    <string name="medical_masks_also_known_as_surgical_masks_are_flat_or_pleated_masks_that_attach_to_the_head_with_straps_or_loops_medical_masks_may_feel_uncomfortable">የቀዶ ጥገና ጭምብሎች በመባል የሚታወቁት የሕክምና ጭምብሎች ጠፍጣፋ ወይም ለስላሳ ጭምብሎች ከጭንቅላት ጋር በማሰር ወይም በመጠምዘዝ ይያዛሉ ፡፡ የሕክምና ጭምብሎች ለረጅም ጊዜ ቢለበሱ ምቾት አይሰጡም ፣ ነገር ግን በጣም ትንሽ ኦክስጅንን ወይም በጣም ብዙ ካርቦን ዳይኦክሳይድን እንዲተነፍሱ አያደርጉዎትም.</string>
+    <string name="source_world_health_organization">ምንጭ: የአለም ጤና ድርጅት</string>
+    <string name="forgot_password">የይለፍ ቃሉን እረስተዋል?</string>
+    <string name="log_in">ግባ</string>
+    <string name="covid_19_risk_assessment">ኮቪድ-19 ስጋት ግምገማ</string>
+    <string name="coronavirus_self_checker">ኮሮና ቫይረስ ራስን ቸክ ማድረግ</string>
+    <string name="the_purpose_of_self_checker">የኮሮናቫይረስ ራስን መመርመር ዋና ዓላማ ተገቢውን የሕክምና እንክብካቤ ለማድረግ እንዲያግዝ ነው ፡፡ ይህ ሲስተም ኮቪድ-19 እና ሌሎች በሽታዎችን ጨምሮ ለመመርመር ወይም ለማከም የታሰበ አይደለም ፡፡</string>
+    <string name="the_purpose_of_self_chacker_2">ይህ ራስን መመርመሪያ ከሕክምና ምክር እና ባለሙያ ፣ በላይ የተዋጣለት ነው ማለት አይደለም ፡፡ ለከባድ ምልክቶች ወይም ድንገተኛ ሁኔታዎች ሁል ጊዜ የሕክምና ባለሙያ ያማክሩ.</string>
+    <string name="i_agree">እስማማለሁ</string>
+    <string name="i_don_t_agree">አልስማማም</string>
+    <string name="first_if_you_are_experiencing_a_life_threatening_emergency_please_call_8335_952_immediately_n_nif_you_are_not_experiencing_a_life_threatening_emergency_let_s_get_started">በመጀመሪያ ፣ ለሕይወት አስጊ የሆነ ድንገተኛ አደጋ አጋጥሞዎት ከሆነ እባክዎን ወዲያውኑ ወደ 8335/952 ይደውሉ። \ n \ n ካልሆነ ግን ይጀምሩ.</string>
+    <string name="are_you_ethiopian_or_select_region_your_location_right_now">ኢትዮጵያዊ ከሆኑ ክልልዎን ወይም አካባቢዎን አሁኑኑ ይምረጡ</string>
+    <string name="are_you_answering_for_yourself_or_someone_else">ለራስዎ ነው ለሌላ ሰው መልስ የሚሰጡት?</string>
+    <string name="my_self">እራሴ</string>
+    <string name="some_one_else">ሌላ ሰው</string>
+    <string name="what_is_your_age">እድሜዎት ስንት ነው ?</string>
+    <string name="please_ask_your_parent_or_guardian_to_help_you_complete_these_questions">ጥያቀዎቹን ለመጨረስ ቤተሰብዎን ወይም ሌላ ሰው ይጠይቁ.</string>
+    <string name="what_is_your_gender">ፆታ ?</string>
+    <string name="male">ወንድ</string>
+    <string name="female">ሴት</string>
+    <string name="do_you_have_any_of_these_life_threatening_symptoms">ከእነዚህ ለሕይወት አስጊ የሆኑ ምልክቶች አሉት??</string>
+    <string name="bluish_lips_or_face">የፊት ወይም የከንፈር መቀየር</string>
+    <string name="severe_and_constant_pain_or_pressure_in_the_chese">ደረት አካባቢ ከባድ እና የማያቋርጥ ህመም ወይም ግፊት</string>
+    <string name="extreme_difficulty_breathing_such_as_gasping_for_air_being_unable_to_talk_without_catching_your_breath_severe_wheezing_nostrils_flaring_e">ከፍተኛ የመተንፈስ ችግር (አየር ለመሳብ መቸገር ፣ ትንፋሽን ሳትወስድ ማውራት አለመቻል ፣ ከባድ አተነፋፈስ ፣ የአፍንጫው መነፋት)</string>
+    <string name="new_disorientation_acting_confused">አዲስ ግራ መጋባት (ግራ የተጋባው መምሰል)</string>
+    <string name="unconscious_or_very_difficult_to_wake_up">የአእምሮ መሳት ወይም ከእንቅልፍ አለመንቃት</string>
+    <string name="slurred_speech_or_difficulty_speaking_new_or_worsening">ደብዛዛ ንግግር ወይም የመናገር ችግር (አዲስ ወይም የከፋ)</string>
+    <string name="new_or_worsening_seizures">አዲስ ወይም የቆየ የመጣል በሽታ</string>
+    <string name="signs_of_low_blood_pressure_too_weak_to_stand_dizziness_lightheaded_feeling_cold_pale_clammy_skin">ዝቅተኛ የደም ግፊት ምልክቶች (ለመቆም በጣም ደካማ ፣ ማዞር ፣ ራስ ምታት ፣ ቀዝቃዛ ስሜት ፣ አመድ መምሰል ፣ የቆዳ መቀዝቀዝ)</string>
+    <string name="dehydration_dry_lips_and_mouth_not_urinating_much_sunken_eyes">ድርቀት (የከንፈር እና አፍ መድረቅ ፣ የሽንት መጠን መቀነስ ፣ የአይን መጎድጎድ)</string>
+    <string name="yes">አዎን እሺ</string>
+    <string name="no">አይ አይደለም</string>
+    <string name="urgent_medical_attention_may_be_needed_please_call_8335">አስቸኳይ የህክምና እርዳታ ያስፈልገዎታል. እባክዎን ወደ 8335/952 በፍጥነት ይደውሉ.</string>
+    <string name="based_on_your_their_symptoms_you_may_need_urgent_medical_care_please">በሚያሳዩት ምልክቶች መሰረት አስቸኳይ የሆነ እርዳታ ያስፈልገዎታል. እባክዎን ወደ 8335/952 በፍጥነት ይደውሉ ወይም ቅርብ ወደሚገኝ የጤና ተቋም ይሂዱ</string>
+    <string name="tell_the_8335_952_operator_or_emergency_staff_if_you_have_had_contact_with_someone_with_covid_19">የቅርብ ንክኪ ካለዎት ወደ 8335/952 በመደዎል መረጃዎን ይናገሩ </string>
+    <string name="are_you_feeling_sick">የህመም ስሜት አለዎት?</string>
+    <string name="in_the_two_weeks_before_you_felt_sick">ከሁለት ሳምንት በፊት, ጥንቃቄ አድርገዋል ወይስ ከ15 ደቂቃ ባላነሰ ጊዜ በ6 ፊት እርቀት የሽታው ምልክት ካለበት ሰው ጋር የቅርብ ግንኙነት ነበረዎት?</string>
+    <string name="i_don_t_know">አላቅም</string>
+    <string name="do_you_have_any_of_the_following_check_any">የሚከተሉት ምልክቶች አሉብዎት? (ያረጋግጡ)</string>
+    <string name="fever_or_feeling_feverish_such_as_chills_sweating">ትኩሳት ወይም የማተኮስ ስሜት (እንደ ብርድ ብርድ ማለት, ላበ ላበ ማለት)</string>
+    <string name="cough">ሳል</string>
+    <string name="mild_or_moderate_difficulty_breathing">ቀላል ወይም መካከለኛ የአተነፋፈስ ችግር</string>
+    <string name="muscle_aches_or_body_aches">የጡንቻ ወይም የሰውነት ህመም ሰሜት</string>
+    <string name="vomiting_or_diarrhea">ማስታወክ ወይም ድርቀት</string>
+    <string name="new_loss_of_taste_or_smell">አዲስ የሆነ ጣዕም ወይም ሽታ መለየት አለመቻል</string>
+    <string name="congestion_or_runny_nose">መጨናነቅ ወይም የአፍንጫ ፈሳሽ መብዛት </string>
+    <string name="submit">አስገባ</string>
+    <string name="do_you_live_in_a_long_term_care_facility_nursing_home_or_homeless_shelter">በእንክብካቤ መስጫ ተቋም ፣ በአረጋውያን መንከባከቢያ ቤት ወይም ቤት አልባ መጠለያ ለረጅም ጊዜ ይኖራሉ?</string>
+    <string name="contact_a_medical_provider_in_the_care_center_nursing_home_or_homeless_shelter_where_you_they_live">በእንክብካቤ ማዕከሉ ፣ በአረጋውያን መንከባከቢያ ቤት ወይም (እርስዎ) በሚኖሩበት ቤት አልባ መጠለያ ውስጥ የሚገኝ የሕክምና አቅራቢን ያነጋግሩ.</string>
+    <string name="tell_a_caregiver_in_your_their_facility_that_you_they_are_sick_and_need_to_see_a_medical_provider_as_soon_as_possible_living_in_a_long_term_care_facility_or_nursing_home_may_put_you_them_at_a_higher_risk_for_severe_illness_n_n_help_protect_others_from_getting_sick">በእርስዎ ወይም በሌላ ተቋም ውስጥ ለአሳዳጊ ለእርስዎ (ለእነሱ) እንደታመሙ እና በተቻለ ፍጥነት ወደ ህክምና አቅራቢው እንደሚፈለጉ ይናገሩ ፡፡ በረጅም ጊዜ የእንክብካቤ መስጫ ተቋም ወይም በነርሲንግ ቤት ውስጥ መኖር እርስዎ (እነሱን) ለከባድ ህመም ተጋላጭ ሊያደርጋችሁ ይችላል ፡፡ \ n \ n ሌሎችን እንዳይታመሙ ለመከላከል ያግዙ:</string>
+    <string name="stay_in_you_home_as_much_as_possible_except_to_get_medical_care">የሕክምና እንክብካቤን ለማግኘት ካልሆነ በስተቀር በተቻለ መጠን በቤትዎ ውስጥ ይቆዩ</string>
+    <string name="cover_your_coughs_and_sneezes_with_a_tissue_or_the_inside_of_your_elbow">ሲያስልዎ ወይም ሲያስነጥስዎ በቲሹ ወይም በእጅዎ ይሸፍኑ.</string>
+    <string name="wash_your_hands_often_with_soap_and_water">እጆችዎን አዘውትረው በሳሙና እና በውሃ ይታጠቡ.</string>
+    <string name="avoid_close_contact_with_other_people_stay_at_least_6_feet_away_from_other_people">ከሰዎች ጋር የቅርብ ንክኪ ያስወግዱ ፡፡ ከሌሎች ሰዎች ቢያንስ 6 ጫማ ይራቁ.</string>
+    <string name="wear_a_mask_when_around_others">ከሌሎች ጋር በሚሆኑበት ጊዜ ጭምብል ያድርጉ.</string>
+    <string name="clean_and_disinfect_frequently_touched_surfaces_in_your_room">በክፍልዎ ውስጥ ብዙ ጊዜ የሚነኩ ንጣፎችን ያጽዱ ፀረ ተባይ ይርጩ.</string>
+    <string name="monitor_your_health_and_notify_a_medical_provider_if_you_think_you_are_getting_sicker">እየታመምኩኝ ነው ብለው ካሰቡ ጤናዎን ይከታተሉ እና አቅራቢ ወደሚገኝ ጤና ተቋም ያሳውቁ.</string>
+    <string name="please_check_with_your_ministry_of_health_or_local_health_department_for_additional_information_and_guidelines_about_covid_19_in_your_location">ስለ ኮቪድ-19 ተጨማሪ መረጃ እና መመሪያዎችን ለማግኘት እባክዎ ከጤና ጥበቃ ሚኒስቴር ወይም ከአከባቢዎ የጤና ተቋም ያግኙ.</string>
+    <string name="you_they_may_be_eligible_for_covid_19_testing">እርስዎ (እነሱ) ለ ኮቪድ-19 ምርመራ ሊፈለጉ ይችላሉ.</string>
+    <string name="contact_your_local_health_department_or_you_medical_provider_for_more_information">ለበለጠ መረጃ የአከባቢዎን የጤና ተቋም ወይም የህክምና አገልግሎት ሰጪዎን ያነጋግሩ.</string>
+    <string name="in_the_last_two_weeks_have_you_worked_or_volunteered_in_a_healthcare_facility_or_as_a_first_responder_healthcare_facilities_include_a_hospital_other_medical_setting_including_dental_care_setting_or_long_term_care_facility">ባለፉት ሁለት ሳምንታት ውስጥ በአንድ የጤና እንክብካቤ ተቋም ውስጥ ወይም የመጀመሪያ ድጋፍ ሰጭ ሆነው ሰርተዋል ወይም ፈቃደኛ ሆነዋል? የጤና አጠባበቅ ተቋማት ሆስፒታልን ፣ እና ሌላ የህክምና ሁኔታን (የጥርስ ህክምናን ጨምሮ) ፣ ወይም የረጅም ጊዜ እንክብካቤ ተቋምን ያካትታሉ.</string>
+    <string name="stay_home_keep_them_home_and_take_care_of_yourself_them_call_your_their_medical_provider">ቤት ይቆዩ (ቤታቸው ውስጥ እንዲቆዩ ያድርጉ) እና ለእራስዎ (ለእነሱ) ጥንቃቄ ያድርጉ ፡፡ ወደ የሕክምና አገልግሎት ሰጭ ይደውሉ.</string>
+    <string name="sorry_you_they_are_not_feeling_well_your_their_symptom_s_may_be_related_to_covid_19">ጥሩ ስሜት እየተሰማዎት አይደለም ፡፡ የእርስዎ (የእነሱ) ምልክቶች ከኮቪድ-19 ጋር የተገናኘ ሊሆን ይችላል.</string>
+    <string name="call_your_their_medical_provider_clinician_advice_line_or_telemedicine_provider">ለሕክምና አገልግሎት አቅራቢ ፣ ለህክምና ባለሙያ ምክር ወይም ለቴሌ ሜዲሲን አገልግሎት ሰጪ ይደውሉ.</string>
+    <string name="stay_home_keep_them_home_except_to_get_medical_care_n_do_not_go_to_work_school_or_public_areas_including_grocery_stores_pharmacies_or_restaurants_consider_delivery_options_for_food_and_medicine_n_do_not_use_public_transportation_or_ride_sharing"><![CDATA[Stay home (keep them home) except to get medical care. \n => Do not go to work, school, or public areas including grocery stores, pharmacies, or restaurants. Consider delivery options for food and medicine. \n=>Do not use public transportation or ride sharing.]]></string>
+
+    <string name="contact_the_occupational_health_provider_at_your_workplace_immediately">በሥራ ቦታዎ የሚገኘውን የሥራ ጤና አቅራቢ ወዲያውኑ ያነጋግሩ.</string>
+    <string name="tell_the_occupational_health_provider_or_supervisor_in_your_workplace_that_you_re_feeling_sick_as_soon_as_possible">በተቻለ ፍጥነት ህመም እንደሚሰማዎት ካረጋገጡ ለጤና ጥበቃ ወይም ተቆጣጣሪ ይናገሩ.</string>
+
+    <string name="do_any_of_these_apply_to_you_check_any">ከእነዚህ ውስጥ አንዱ ይታይቦዋታል? (ካለበት ያረጋግጡ)</string>
+    <string name="chronic_lung_disease_such_as_moderate_to_severe_asthma_copd_chronic_obstructive_pulmonary_disease_cystic_fibrosis_or_pulmonary_fibrosis">የቆየ የሳንባ በሽታ ፣ ከመካከለኛ እስከ ከባድ የአስም በሽታ ፣ ሲኦፒዲ (ሥር የሰደደ የሳንባ ምች በሽታ) ፣ ሳይስቲክ ፋይብሮሲስ ወይም የሳንባ ፋይብሮሲስ ያሉ ሥር የሰደደ የሳንባ በሽታ</string>
+    <string name="serious_heart_condition_such_as_heart_failure_cardiomyopathy_heart_attack_or_blocked_arteries_to_the_heart">ከፍተኛ የልብ ችግር ፣ የልብ ስራ ማቆም ፣ የልብ ድካም ወይም ጉዳት፣ የልብ የደም ቧንቧዎች መዘጋት ሁኔታ</string>
+    <string name="weakened_immune_system_or_taking_medications_that_may_cause_immune_suppression">የተዳከመ የሰውነት በሽታ የመከላከል አቅም ወይም በሽታን የመከላከል አቅም መዳከምን ሊያስከትሉ የሚችሉ መድሃኒቶችን መውሰድ</string>
+    <string name="diabetes_chronic_kidney_disease_or_liver_disease">የስኳር በሽታ ፣ ሥር የሰደደ የኩላሊት በሽታ ወይም የጉበት በሽታ</string>
+    <string name="high_blood_pressure">ከፍተኛ የደም ግፊት</string>
+    <string name="cancer">ካንሰር</string>
+    <string name="hiv">ኤችአይቪ ኤድስ</string>
+    <string name="blood_disorder_such_as_sickle_cell_disease_or_thalassemia">እንደ ሲክል ሴል በሽታ ወይም ታላሴሚያ ያሉ የደም ችግሮች</string>
+    <string name="cerebrovascular_disease_or_neurologic_condition_such_as_stroke_or_dementia">እንደ ስትሮክ ወይም የአእምሮ ችግር በሽታ ያሉ ሴሬብሮቫስኩላር ወይም ኒውሮሎጂካዊ</string>
+    <string name="smoking_or_vaping">ሲጋራ ማጨስ</string>
+    <string name="none_of_the_above">አንዳቸውም አይደሉም</string>
+    <string name="call_a_medical_provider">ለህክምና አገልግሎት ሰጪ ይደውሉ.</string>
+    <string name="sorry_you_they_are_not_feeling_well_your_their_symptoms_may_be_related_to_covid_19_you_they_also_have_medical_conditions_that_may_put_you_them_at_risk_of_becoming_more_seriously_ill">ጥሩ ስሜት እየተሰማዎት አይደለም ፡፡ የእርስዎ (የእነሱ) ምልክቶች ከኮቪድ-19 ጋር የተዛመዱ ሊሆኑ ይችላል። እርስዎ (እነሱም) በከባድ ህመም የመያዝ ስጋት ውስጥ ሊጥሉዎት የሚችሉ የጤና ሁኔታዎች አሉዎት.</string>
+    <string name="stay_home_keep_them_home_except_to_get_medical_care_n_n_do_not_go_to_work_school_or_public_areas_including_grocery_stores_pharmacies_or_restaurants_consider_delivery_options_for_food_and_medicine_n_do_not_use_public_transportation_or_ride_sharing"><![CDATA[Stay home (keep them home) except to get medical care. \n\n=>Do not go to work, school, or public areas including grocery stores, pharmacies, or restaurants. Consider delivery options for food and medicine.\n=>Do not use public transportation or ride sharing.]]></string>
+    <string name="if_you_they_feel_worse_and_you_think_it_is_an_emergency_call_8335_952_or_seek_medical_care_immediately">እርስዎ (እነሱ) የከፋ ስሜት ከተሰማዎት እና ድንገተኛ ነው ብለው ካሰቡ ወደ 8335/952 ይደውሉ ወይም ወዲያውኑ የሕክምና እንክብካቤ ይፈልጉ.</string>
+    <string name="consider_using_telehealth_services_if_available">ከተቻለ የቴሌ ጤና አገልግሎቶችን ለመጠቀም ያስቡ.</string>
+    <string name="learn_how_to_take_care_of_yourself_or_someone_else_who_is_sick">እራስዎን ወይም ሌላ ህመምተኛዎን እንዴት እንደሚንከባከቡ ይወቁ.</string>
+    <string name="take_steps_to_help_protect_others_from_getting_sick">ሌሎች እንዳይታመሙ ለመከላከል እርምጃዎችን ይውሰዱ.</string>
+
+    <string name="personal_information">የግል መረጃ</string>
+    <string name="full_name">ሙሉ ስም</string>
+    <string name="user_name">ሜለያ ስም</string>
+    <string name="passward">የይለፍ ቃል</string>
+    <string name="repeat_password">የይለፍ ቃሉን ድጋሚ ያስገቡ</string>
+    <string name="phone_number">ስልክ ቁጥር</string>
+    <string name="birth_day">የልደት ቀን</string>
+    <string name="register">መዝግብ</string>
+    <string name="survival_rate_calculator">የመትረፍ መጠን ማስያ</string>
+    <string name="age_group">የእድሜ ክልል</string>
+    <string name="sex">ፆታ</string>
+    <string name="do_you_have_any_of_these_conditions">ከእነዚህ ሁኔታዎች ውስጥ አንዱ አለዎት?</string>
+    <string name="cardiovascular_disease">ከልብ ጋር የተያያዘ በሽታ</string>
+    <string name="diabetes">ስኳር</string>
+    <string name="chronic_respiratory_disease">ሥር የሰደደ የአተነፋፈስ በሽታ</string>
+    <string name="hypertension">ግፊት</string>
+
+    <string name="you_have_an_estimated_31_53_chance_of_dying_from_covid_19_if_infected">በበሽታው ከተያዙ 31.53% የመሞት ዕድል አለዎት</string>
+    <string name="please_note_this_is_just_an_estimation_and_not_an_absolute_assessment_of_the_effects_covid_19_might_have_on_you">እባክዎ ልብ ይበሉ ይህ ግምታዊ እንጅ ትክክል ነው ማለት አይደለም ፣ እና በኮቪድ-19 ላይ ሊኖርዎት የሚችለው ውጤት ፍጹም አይደለም.</string>
+    <string name="check_survival_rate">የመኖር ደረጃዎን ቸክ ያድርጉ</string>
+    <string name="who_prevenation">የአለም ጤና ድርጅት መከላከያዎች</string>
+    <string name="wku_banner">ወልቂጤ ዩኒቨርሲቲ ባነር</string>
+    <string name="country_name">የሀገሩ ስም</string>
+    <string name="today_s_case">ዛሬ የተያዙ:</string>
+    <string name="deaths">የሞቱ:</string>
+    <string name="total_case">አጠቃላይ የተያዙ:</string>
+    <string name="recovered">ያገገሙ:</string>
+
+    <string name="when_properly_worn_medical_masks_won_t_make_you_breathe_in_too_little_oxygen_or_too_much_carbon_dioxide">በትክክል ሲለብሱ ፣ የሕክምና ጭምብሎች በጣም ትንሽ ኦክስጅንን ወይም በጣም ብዙ የካርቦን ዳይኦክሳይድን እንዲተነፍሱ አያደርጉም</string>
+    <string name="terms_of_service">የአገልግሎት ውሎች</string>
+    <string name="before_using_the_checkup_please_read_the_terms_of_service_remember_that">ምርመራውን ከመጠቀምዎ በፊት እባክዎ የአገልግሎት ውሉን ያንብቡ። ያስታውሉ:</string>
+    <string name="checkup_is_not_a_diagnosis_checkup_is_for_informational_purposes_only_and_does_not_represent_in_any_way_a_qualified_medical_opinion_checkup_and_its_potential_results_are_entirely_based_on_who_and_cdc_guidelines_concerning_covid_19_only">ቼክ ማድረግ መለት መታከም ማለት አይደለም. ቼክ ማድረግ መለት ለደህንነትዎ እና ለራስዎ መረጃ ማግኘት ማለት ነው. ከኮቪድ-19 ጋረ በተያያዘ ምርመራ እና የምርመራ ውጤቶች ሙሉ በሙሉ በአለም ጤና ድርጅት እና በሲዲሲ መመሪያዎች ላይ የተመሰረቱ ናቸው.</string>
+    <string name="if_this_is_an_emergency_call_your_local_emergency_number_immediately_do_not_proceed_with_this_checkup_tool_medical_attention_is_required_immediately">ድንገተኛ ከሆነ, በፍጥነት የአደጋ ጊዜ ቁጥሩን ይደውሉ. በዚህ ሲስተም አይቀጥሉ። በፍጥነት የሕክምና ዕርዳታ ያስፈልጋል.</string>
+    <string name="your_data_is_safe_information_that_you_provide_is_anonymous_and_not_shared_with_anyone">የእርስዎ ማንነት ደህንነቱ የተጠበቀ ነው። ያቀረቡት መረጃ ማንነቱ የማይታወቅ እና ለማንም የማይጋራ ነው.</string>
+    <string name="i_have_read_and_accept_the_terms_of_service_and_privacy_policy">የአገልግሎት ውሎችን እና የግላዊ ፖሊሲን አንብቤ ተቀብያለሁ.</string>
+
+    <string name="are_you_breathing_very_fast">በጣም በፍጥነት እየተነፍሱ ነው?</string>
+    <string name="ministry_of_health_ethiopia">የኢትዮጵያ ጤና ጥበቃ ሚኒስቴር </string>
+    <string name="free_call_center">ነፃ የጥሪ መስመር</string>
+    <string name="addis_ababa">አዲስ አበባ</string>
+    <string name="dire_dewa">ድሬዳዋ</string>
+    <string name="ethio_telecom">Ethio Telecom</string>
+    <string name="oromia">ኦሮሚያ</string>
+    <string name="amhara">አማራ</string>
+    <string name="tigray">ትግራይ</string>
+    <string name="somalia">ሶማሊያ</string>
+    <string name="snnpr">ደቡብ</string>
+    <string name="hareri">ሀረሪ</string>
+    <string name="afar">አፋር</string>
+    <string name="gambela">ጋምቤላ</string>
+    <string name="benishangul">ቤኒሻንጉል</string>
+    <string name="do_you_have_any_of_the_following_symptoms">ከሚከተሉት ምልክቶች ውስጥ አንዱ ይታይብዎታል?</string>
+    <string name="fatigue">ድካም</string>
+    <string name="muscle_pain">የጡንቻ ህመም</string>
+    <string name="chills">ብርድ ብርድ ማለት</string>
+    <string name="headache">ራስ ምታት</string>
+    <string name="diarrhea">ተቅማጥ</string>
+    <string name="nausea">ማቅለሽለሽ</string>
+    <string name="sore_throat">የጉሮሮ መከርከር</string>
+    <string name="impaired_taste_or_smell">ጠዕም ወይም ሽታ መለየት አለመቻል</string>
+    <string name="back">ወደሁላ</string>
+    <string name="next">ቀጣይ</string>
+    <string name="have_you_had_close_contact_with_a_person_with_confirmed_or_probable_covid_19_in_the_past_14_days">ባለፉት 14 ቀናት ውስጥ የተያዘ ወይም የተጠረጠረ ሰው ጋር ንክኪ አለዎት?</string>
+    <string name="select_one_answer">አንድ መልስ ይምረጡ.</string>
+    <string name="i_have_provided_direct_care_to_such_a_person_without_the_use_of_a_protective_mask_and_gloves">የፊት ማስክና ጓንት ባልጠቀምም ከሰወች ንክኪ ጥንቃቄ አድርጌአለሁኝ</string>
+    <string name="i_had_direct_physical_contact_with_such_a_person">ከሰዎች ጋር ቀጥተኛ ንክኪ ነበረኝ</string>
+    <string name="i_had_face_to_face_contact_with_such_a_person_within_1_meter_3_feet_for_longer_than_15_minutes">ከሰዎች ጋር በ 1 ሜትር (በ 3 ጫማ) እርቀት ከ 15 ደቂቃዎች በላይ ፊት ለፊት ተገናኝቼ ነበር</string>
+    <string name="other_type_of_contact">ሌላ አይነት ንክኪ</string>
+
+    <string name="what_does_it_mean">ምን ማለት ነው?</string>
+    <string name="are_you_coughing_up_blood">ደምዎት እየጨመረ ነው?</string>
+    <string name="covid_19_ethiopian_regional_data">የኮቪድ-19 የኢትዮጵያ ክልላዊ መረጃ</string>
+    <string name="covid_19_et">ኮቪድ-19 በኢትዮጵያ</string>
+
+    <string name="critical">ፅኑ ህመም:</string>
+    <string name="active_case">የተያዙ:</string>
+    <string name="how_high_is_your_fever">ትኩሳትዎ ምን ያህል ከፍ ያለ ነው?</string>
+    <string name="select_one_answer_in_each_row">በእያንዳንዱ ረድፍ አንድ መልስ ይምረጡ.</string>
+    <string name="between_37_5_c_and_38_c_99_5_f_and_100_4_f">በ 37.5°C እና 38°C (99.5°F and 100.4°F)</string>
+    <string name="between_38_c_and_40_c_100_4_f_and_104_f">በ 38°C እና 40°C (100.4°F and 104°F)</string>
+    <string name="over_40_c_104_f">ከ 40°C (104°F)</string>
+    <string name="i_haven_t_taken_my_temperature">የሰውነት የሙቀት መጠንዎ አልተለካም</string>
+    <string name="what_is_your_sex">ፆታ?</string>
+    <string name="wear_a_mask_save_lives">ማስክ ይልበዩ.ህይወት ያድኑ.</string>
+    <string name="wear_a_mask">ማስክ ይልበሱ.</string>
+    <string name="clean_your_hands">እጅዎን ይታጠቡ</string>
+    <string name="keep_a_safe_distance">እርቀትዎን ይጠብቁ</string>
+    <string name="know_how_it_spreads">እንዴት እንደሚሰራጭ ይወቁ</string>
+    <string name="wash_your_hands_often">እጅዎን ሁሌ ይታጠቡ</string>
+    <string name="avoid_close_contact">የቅርብ ንክኪ ያቁሙ</string>
+    <string name="cover_your_mouth_and_nose_with_mask">የአፍና አፍንጫ ጭምብሎችን ይልበሱ</string>
+    <string name="cover_coughs_and_sneezes">ሲያስነጥሱ በእጅዎ ይሸፍኑ</string>
+    <string name="clean_and_disinfect">ፅዳትን መጠበቅና ፀረ-ተባይ መርጨት</string>
+    <string name="monitor_your_health_daily">ጤናዎን በየቀኑ ይቆጣጠሩ</string>
+
+    <string name="q_amp_a_on_coronaviruses_covid_19"><![CDATA[Q&A on coronaviruses (COVID-19)]]></string>
+    <string name="what_is_corona_viruss">ኮሮና ቫይረስ ምንድን ነው?</string>
+    <string name="what_is_covid_19">ኮቪድ-19 ምንድን ነው</string>
+    <string name="what_are_the_syptoms_of_covid_19">የኮቪድ-19 ምልክቶች ምንድን ናቸው</string>
+    <string name="what_should_i_do_if_i_have_covid19_symptom_and_when_should_i_seek_medical_care">የኮቪድ-19 ምልክት ካለብኝ ምን ማድረግ እችላለሁ እና መቼ የሕክምና እንክብካቤ ማግኜት አለብኝ?</string>
+    <string name="how_does_covid_19_spreads">ኮቪድ -19 እንዴት ይሰራጫል?</string>
+    <string name="can_covid_19_be_cought_from_a_person_who_has_no_symptoms">ኮቪድ-19 ምንም አይነት ምልክት ከሌለው ሰው ሊያዝ ይችላል??</string>
+    <string name="how_can_we_protect_others_and_ourselves_if_we_don_t_know_who_is_infected">በበሽታው መያዙን ካላወቅን እንዴት ሌሎችን እና እራሳችንን መጠበቅ እንችላለን??</string>
+    <string name="what_should_i_do_if_i_have_come_in_close_contact_with_someone_who_has_covid_19">ኮቪድ-19 ካለበት ሰው ጋር የቅርብ ንክኪ ካለኝ ምን ማድረግ አለብኝ?</string>
+    <string name="what_does_it_mean_to_self_isolate">ራስን ማግለል ምን ማለት ነው?</string>
+    <string name="what_is_the_difference_between_self_isolation_selef_quarantine_and_distancing">ራስን ማግለል ፣ ራስን ለብቻ ማኖር እና እርቀትን መጠበቅ መካከል ያለው ልዩነት ምንድነው?</string>
+    <string name="what_should_i_do_if_i_have_no_symptom_but_i_thnk_i_have_been_exposed_to_covid_19_what_does_it_mean_to_self_quarantine">ምንም ምልክት ከሌለኝ ምን ማድረግ አለብኝ ፣ ግን ለኮቪድ-19 የተጋለጥኩ ይመስለኛል? ራስን ለብቻ ማኖር ምን ማለት ነው?</string>
+    <string name="can_children_or_adolescent_cathc_covid_19">ኮቪድ-19 ልጆችን ወይም ጎረምሶችን መያዝ ይችላሉ?</string>
+    <string name="what_can_i_do_to_protect_my_self_and_prevent_the_spread_of_diseases">እራሴን ለመጠበቅ እና የበሽታውን ስርጭት ለመከላከል ምን ማድረግ አለብኝ?</string>
+    <string name="is_there_a_vaccine_drug_or_treatment_for_covid_19">ኮቪድ-19 ክትባት ፣ መድኃኒት ወይም ሕክምና አለው?</string>
+    <string name="doe_who_recommend_wearing_medical_masks_to_prevent_sprread_of_covid_19">የአለም ጤና ድርጅት የኮቪድ-19 ስርጭትን ለመከላከል የህክምና ጭምብል እንዲለብሱ ይመክራል?</string>
+    <string name="how_to_properly_wear_a_medical_mask">የሕክምና ጭምብል በትክክል እንዴት መልበስ ይቻላል?</string>
+    <string name="recommendation_quarantine">ራስን ለብቻ እንዲያኖሩ(ኳራንቲን) እንዲያደርጉ ይመከራል</string>
+    <string name="your_symptoms_currently_do_not_suggest_that_you_have_covid_19_however_according_to_the_who_and_cdc_guidelines_it_is_strongly_recommended_that_you_keep_yourself_separated_from_others_for_the_next_14_days">ምልክቶችዎ ኮቪድ-19 እንዳለብዎት አያመለክቱም. ሆኖም በአለም ጤና ድርጅት እና በሲ.ዲ.ሲ መመሪያዎች መሰረት ለ14 ቀናት እራስዎን ከሌላው እንዲለዩ በጥብቅ ይመከራል.</string>
+
+    <string name="what_should_you_do">ምን ማድረግ አለብኝ?</string>
+    <string name="covid_19_symptoms">የኮቪድ-19 ምልክቶች</string>
+    <string name="fever">ትኩሳት</string>
+    <string name="dry_cough">ደረቅ ሳል</string>
+    <string name="tiredness">ድካም</string>
+    <string name="shortness_of_breath">ለመተንፈስ መቸገር</string>
+    <string name="vomiting">ማስታወክ</string>
+    <string name="diarrhea2">ተቅማጥ</string>
+    <string name="lose_of_taste_small">ጣዕም ወይም ሽታ መለየት አለመቻል</string>
+    <string name="please_select_all_statements_that_apply_to_you">የሚታይበዎትን ይምረጡ</string>
+    <string name="active_cancer">ካንሰር</string>
+    <string name="obesity">የውፍረት በሽታ</string>
+    <string name="long_term_stay_at_a_care_facility_or_nursing_home">ለብዙ ጊዜ ጤና ተቋም ቆይተዋል</string>
+
+    <string name="diabets">ስኳር</string>
+
+    <string name="history_of_chronic_lung_disease">ስር የሰደደ የሳንባ በሽታ ታሪክ</string>
+    <string name="history_of_chronic_liver_disease">ስር የሰደደ የጉበት በሽታ ታሪክ</string>
+    <string name="history_of_chronic_kidney_disease">ስር የሰደደ የኩላሊት በሽታ ታሪክ</string>
+    <string name="do_you_have_any_of_the_following_symptoms_please_only_select_new_symptoms_that_are_not_related_to_your_chronic_diseases">ከሚከተሉት ምልክቶች ውስጥ አንዱ አለብዎት? እባክዎን ከበሽታዎ ጋር የማይዛመዱ አዲስ ምልክቶችን ብቻ ይምረጡ.</string>
+    <string name="are_your_symptoms_rapidly_worsening">ምልክቶችዎ በፍጥነት እየተባባሱ ናቸው?</string>
+
+    <string name="stop_the_spread_of_germs">የጀርሞች መስፋፋትን ያስቁሙ</string>
+    <string name="help_prevent_the_spread_of">ኮቪድ-19 እንዳይስፋፋ ይጠቅማል</string>
+    <string name="respiratory_diseases_like_covid_19">የመተንፈሻ አካላት በሽታዎች እንደ ኮቪድ-19</string>
+    <string name="stay_at_least_6_feet_about_2_arms_length_from_other_people">ከሰዎች ቢያንስ 6 ጫማ (ወደ 2 ክንዶች ርዝመት) ይቆዩ.</string>
+    <string name="cover_your_cough_or_sneeze_with_a_tissue_then_throw_the_tissue_in_the_trash_and_wash_your_hands">ሲያስልዎ በእጅዎ ይሸፍኑ ወይም በጨርቅ ያስነጥሱ ፣ ከዚያም ቲሹን በቆሻሻ ቅርቻት ውስጥ ይጣሉት እና እጅዎን ይታጠቡ</string>
+    <string name="when_in_public_wear_a_mask_over_your_nose_and_mouth">ሰው በሚበዛበት አካባቢ ከሆኑ የአፍ ወይም አፍንጫ ጭምብል ያድርጉ.</string>
+    <string name="do_not_touch_your_eyes_nose_and_mouth">አይንዎን,እፍንጫዎን እና አፍዎን አይንኩ.</string>
+    <string name="clean_and_disinfect_frequently_touched_objects_and_surfaces">በተደጋጋሚ የሚነኩ ነገሮችን እና ንጣፎችን ማጽዳትና ዲስ-ኢንፌክት ማድረግ.</string>
+    <string name="stay_home_when_you_are_sick_except_to_get_medical_care">የህክምና እርዳታ ለማግኘት ካልሆነ በስተቀር በቤትዎ ይቆዩ.</string>
+    <string name="wash_your_hands_often_with_soap_and_water_for_at_least_20_seconds">እጅዎን በሳሙና እና በውሃ ቢያንስ ለ 20 ሰከንድ ይታጠቡ ፡፡.</string>
+    <string name="cover_coughs_and_sneezess">ሲያስልዎ እና ስያስነጥስዎ በእጅዎ ይሸፍኑ</string>
+    <string name="that_can_make_you_and_others_sick">እርስዎ እና ሌሎች እንዲታመሙ ሊያደርግ ይችላል!</string>
+    <string name="cover_your_mouth_and_nose_with_atissue_when_you_sneeze_or_cough">ሲያስልዎ በእጅዎ ይሸፍኑ ወይም በጨርቅ ያስነጥሱ ፣ እጅዎን ይታጠቡ.</string>
+    <string name="if_you_don_t_have_a_tissue_use_your_elbow">ቲሹ ከሌለዎት ክርዎን ይጠቀሙ.</string>
+    <string name="wahs_hands_often_especially_after_coughing_or_snizing">ካሳልዎ ወይም ካስነጠስዎ በኋላ እጅን ይታጠቡ.</string>
+    <string name="what_your_test_results_mean">የምርመራ ውጤቶች ምን ማለት ናቸው</string>
+    <string name="if_you_test_positive_for_covid_19">ኮቪድ-19 እንዳለብዎት ከተረጋገጠ</string>
+    <string name="take_steps_to_help_prevention_the_spread_of_covid_19">የኮቪድ-19 ስርጭትን ለመከላከል የሚረዱ እርምጃዎችን ይውሰዱ</string>
+    <string name="stay_home">ቤትዎ ይቆዩ</string>
+    <string name="do_not_leave_your_home_except_to_get_medical_care_do_not_visit_public_areas">የሕክምና እንክብካቤ ለማግኘት ካልሆነ በስተቀር ከቤትዎ አይውጡ። ሰዎች በሚበዙበት ቦታዎችን አይገኙ.</string>
+    <string name="stay_in_touch_withyour_doctor">ከሐኪምዎ ያማክሩ.</string>
+    <string name="get_rest_and_stay_hydrated">እረፍት ያግኙ እና እራስዎን ይጠብቁ</string>
+    <string name="take_over_the_counter_medicines_such_as_acetaminophen_to_help_you_feel_better">የተሻለ ስሜት እንዲሰማዎት ለማገዝ እንደ አሲታሚኖፌን ያሉ መድኃኒቶችን ይውሰዱ.</string>
+    <string name="seperate_your_self_from_other_people">ራስዎን ከሌሎች ሰዎች ይለዩ.</string>
+    <string name="as_much_as_possible_stay_in_a_specifc_room_and_away_from_other_people_and_pets_in_your_home">በተቻለ መጠን በቤትዎ ውስጥ ይቆዩ እና እራስዎን ከቤት እንስሳት ንክኪ ያርቁ.</string>
+    <string name="if_you_test_negative_for_covid_19">ኮቪድ-19 ምንም ከሌለብዎት</string>
+    <string name="_9824_you_probably_were_not_infected_at_the_time_your_sample_was_collected">♠ምናልባት ናሙናዎ በተዎሰደበት ጊዜ በበሽታው ላይያዙ ይችላሉ.</string>
+    <string name="_9824_however_that_does_not_mean_you_will_not_get_sick">♠ይህም ማለት አልታመሙም ማለት አይደለም</string>
+    <string name="_9824_it_is_possible_that_you_were_very_early_in_your_infection_when_your_sample_was_collected_and_that_you_could_test_positive_later">♠ ናሙናዎ በቅርብ ጊዜ ተወስዶ በሽታው እንዳለበዎት ሊረጋገጥ ይችላል.</string>
+
+    <string name="disease_weeaken_immune_system_detail">የተዳከመ በሽታን የመከላከል አቅም በብዙ ምክንያቶች ሊመጣ ይችላል, ለምሳሌ ካንሰር, የአጥንት መቅላት ወይም የአካል ክፍሎች ንክለ ተከላ, ደካማ የሆነ የኤድስ መቆጣጠር ወይም አንዳንድ አብረው የተወለዱ በሽታዎች. እንደዚሁም እንደ ኮርቲሲቶይዶይስ ያሉ በሽታ የመከላከል አቅምን ሚያዳክሙ መድኃኒቶችን ረዘም ላለ ጊዜ በመጠቀሙ ሊሆን ይችላል, ወይም ለሩማቶይድ አርትራይተስ ፣ ለፒስ በሽታ እና ለሌሎች የሰውነት በሽታ መከላከያ የሚያገለግሉ መድኃኒቶች.</string>
+    <string name="treatment_and_awareness">ሕክምና እና ግንዛቤ</string>
+
+    <string name="obesity_detail">አንድ ሰው የውፍረት በሽታ አለበት ሚባለው ቢኤምአይ ከ30 ሲበልጥ ነው። \n\nይህን መተግበሪያ በመጠቀም የሰውነት ክብደትዎን (ቢኤምአይ) ማስላት ይችላሉ</string>
+    <string name="analyzing_your_result">ውጤትዎን በመተንተን ላይ</string>
+    <string name="diseases_or_drugs_that_weaken_immune_system">በሽታ የመከላከል አቅምን የሚያዳክሙ በሽታዎች ወይም መድኃኒቶች</string>
+    <string name="a_weakened_immune_system_can_be_caused_by_many_factors_e_g_cancer_treatment_bone_marrow_or_organ_transplantation_poorly_controlled_hiv_aids_or_some_congenital_diseases_also_it_may_be_caused_by_prolonged_use_of_immunosuppressant_drugs_such_as_corticosteroids_or_drugs_used_for_rheumatoid_arthritis_psoriasis_and_other_autoimmune_illnesses">በሽታን የመከላከል አቅም መዳከም በተለያዩ ነገሮች ሊመጣ ይችላል , ለምሳሌ., ካንሰር, የሰውነት አካል ንቅለ ተከላ, ኤችአይቪ ኤድስን መቆጣጠር አለመቻል ወይም አብረው የሚዎለዱ በሽታዎች.እንዲሁም እንደ ኮርቲሲቶይዶይስ ያሉ መድኃኒቶችን ረዘም ለረጅም ጊዜ መጠቀም, ወይም እንደ ሩማቶይድ አርትራይተስ ፣ ሶሪያሲስ ያሉ መደሃኒቶችን መጠቀም.</string>
+    <string name="region">ክልል</string>
+    <string name="total_number_of_case">አጠቃላይ የተያዙ:</string>
+    <string name="number_of_death">የሞቱ:</string>
+    <string name="dash_board">ዳሽ ቦርድ</string>
+    <string name="covid_symptom">ኮቪድ-19 ምልክቶች</string>
+    <string name="covid_prevention">ኮቪድ-19 መከላከል</string>
+    <string name="covid_treatment">ኮቪድ-19 ህክምና</string>
+    <string name="covid_19_self_checker">ኮቪድ-19 ራስን መመርመር</string>
+    <string name="covid_19_risk_assesment">ኮቪድ-19 ስጋት መገምገሚያ</string>
+    <string name="body_mas_index">የሰውነት ክብደት መለኪያ(ቢኤምአይ)</string>
+    <string name="call_center">የጥሪ ማዕከል </string>
+    <string name="q_amp_a_on_covid_19"><![CDATA[Q&A on Covid-19]]></string>
+    <string name="contact_us">እኛን ያግኙ</string>
+    <string name="share">አጋራ</string>
+    <string name="title_not_set">አረዕስቱ አልተሞላም</string>
+    <string name="detail_not_set">ዝርዝሩ አልተሞላም</string>
+    <string name="rapid_breathing">በፍጥነት መተንፈስ</string>
+    <string name="rapid_breathing_detail">በፍጥነት መተንፈስ: በደቂቃ ከ20 ጊዜ በላይ መተንፈስ.</string>
+    <string name="person_with_confirmed_or_probable_covid_19">ከተያዘ ወይም ኮቪድ-19 ከተጠረጠረ ሰው ጋር</string>
+    <string name="person_with_confirmed_or_probable_covid_19_detail">ኮቪድ-19 ያለበት ሰው በዶክተሮች ከተጠረጠረ, ወይም ውጠቱ ካልታወቁ.\"ከተረጋገጠ\" ወይም ኮቪድ ፖዚቲቭ መሆኑ ከታወቀ.</string>
+
+    <string name="diseases_or_drugs_that_weaken_immune_system_detail">የተዳከመ በሽታን የመከላከል አቅም በብዙ ምክንያቶች ሊመጣ ይችላል, ለምሳሌ ካንሰር, የአጥንት መቅላት ወይም የአካል ክፍሎች ንክለ ተከላ, ደካማ የሆነ የኤድስ መቆጣጠር ወይም አንዳንድ አብረው የተወለዱ በሽታዎች. እንደዚሁም እንደ ኮርቲሲቶይዶይስ ያሉ በሽታ የመከላከል አቅምን ሚያዳክሙ መድኃኒቶችን ረዘም ላለ ጊዜ በመጠቀሙ ሊሆን ይችላል, ወይም ለሩማቶይድ አርትራይተስ ፣ ለፒስ በሽታ እና ለሌሎች የሰውነት በሽታ መከላከያ የሚያገለግሉ መድኃኒቶች.</string>
+
+    <string name="obesity_detail_java">አንድ ሰው የውፍረት በሽታ አለበት የሚባለው ቢኤምአይ ከ30 ሲበልጥ ነው። \n\nይህን መተግበሪያ በመጠቀም የሰውነት ክብደትዎን (ቢኤምአይ) ማስላት ይችላሉ</string>
+
+    <string name="cardiovascular_disease_detail">ልብን እና የደም ቧንቧዎችን የሚጎዱ የበሽታ ክፍል ነው. ይህ ሁኔታ: ለምሳሌ.,እንደ የልብ ድካም ፣ የደም ቧንቧ በሽታ ፣ ከፍተኛ የደም ግፊት ወይም ሌሎች የልብ በሽታዎችን ያጠቃልላል ፡፡ የልብ ድካም ወይም የደም ቧንቧ ህመም ካለብዎት ይህንን ይምረጡ.</string>
+
+    <string name="history_of_chronic_lung_disease_detail">ሥር የሰደደ የሳንባ በሽታ ማለት ሳንባን እና ሌሎች የመተንፈሻ አካላትን ጨምሮ ተፅእኖ የማሳደር መታወክ ነው. ይህም ሥር የሰደደ የሳንባ በሽታ ፣ መካከለኛ እና ከባድ የአስም በሽታ እና ሌሎች ሁኔታዎችን ያካትታሉ .</string>
+
+    <string name="history_of_chronic_liver_disease_detail">ሥር የሰደደ የጉበት በሽታ በአልኮል ፣ በኢንፌክሽን ፣ በሰውነት መቆጣት ወይም አብረው በተወለዱ በሽታዎች ምክንያት የሚከሰት ሲሆን የጉበት ሥራ ማቆም ፣ ኮምትሮሲስ እና ሌሎች ችግሮችን ሊያስከትል ይችላል ፡፡</string>
+
+    <string name="history_of_chronic_kidney_disease_detail">ሥር የሰደደ የኩላሊት በሽታ ማለት የኩላሊት ቀስ በቀስ ደምን የማጣራት ሥራ ማቆም ነው. ይህም ከጊዜ በኋላ በሰውነትዎ ውስጥ ቆሻሻ እንዲከማች ያደርጋል.</string>
+    <string name="fever_detail">ትኩሳት ማለት ከ37.5°C ወይም 99.5°F ከፍ ያለ የሰውነት ሙቀት ነው. ምንም እንኳን የሙቀት መጠንዎን ባይለኩም ፣ ነገር ግን ሙቀት ከተሰማዎት ፣ ትኩሳት ፣ ወይም የማቃጠል ስሜት ካለብዎት ይህንን ምልክት ይምረጡ.</string>
+    <string name="shortness_of_breath_detail">የትንፋሽ ማጠር: የመተንፈስ ችግር ሲኖርብዎት እና በቂ አየር ወደ ሳንባዎ ማስገባት ሳይችሉ ሲቀር. ብዙውን ጊዜ የደረት መወጠር , የትንፋሽ ማጠር ወይም የመታነቅ ስሜት መታየት.</string>
+    <string name="symptoms_quickly_worsening">ምልክቶችዎ በፍጥነት እየተባባሱ እየሄዱ ነው</string>
+    <string name="symptoms_quickly_worsening_detail">ምልክቶች በፍጥነት እየተባባሱ ነው: ከቀድሞው የበለጠ በከፍተኛ ሁኔታ በስዓታት ልዩነት እየተሰማዎት ነው. እየተሻለዎት አይደለም.</string>
+    <string name="stay_home_and_monitor_your_symptoms">ቤትዎ በመቆየት ምልክቶችዎን ይቆጣጠሩ.</string>
+    <string name="your_symptoms_do_not_suggest_that_you_have_the_covid_19_still">ምልክቶችዎ ኮቪድ-19 እንዳለብዎት አያመላክቱም. አሁንም ፣ ለእርስዎ እና ለሌሎች ሰዎች ደህንነት ሲባል እስኪያገግሙ ወይም እስኪድኑ ድረስ በቤትዎ ይቆዩ. ምልክቶችዎ በሌሎች በሽታዎችም ሊመጡ እንደሚችሉ ያስታውሱ እናም የሕክምና ምክር ማግኜት አስፈላጊ ነው - ይህ ሲስተም ኮቪድ-19ን መሰረት ያደረገ ነው. ምልክቶችዎ ከባድ መስለው የሚታዩ ከሆኑ እና የሚጨነቁ ከሆነ ዶክተርዎን ወይም የአከባቢዎን ጤና ባለሙያ ያነጋግሩ.</string>
+    <string name="prolonged_direct_contact_with_a_person_suspected_of_having_covid_19">ኮቪድ-19 አለበት ተብሎ ከተጠረጠረ ሰው ጋር ረዘም ያለ ግንኙነት ወይም ንክኪ</string>
+    <string name="quarantine">ማቆያ</string>
+    <string name="your_symptoms_currently_do_not_suggest_that_you_have_covid_19_however_according_to_the_who_and_cdc_guidelines">ምልክቶችዎ ኮቪድ-19 እንዳለብዎት አያመላክቱም. ነገር ግን, በአለም ጤና ድርጅት እና በሲ.ዲ.ሲ መመሪያዎች መሰረት ለሚቀጥሉት 14 ቀናት እራስዎን እንዲያገሉ በጥብቅ ይመከራል.</string>
+    <string name="direct_physical_contact_with_a_person_suspected_of_having_covid_19">ኮቪድ-19 አለበት ተብሎ ከተጠረጠረ ሰው ጋር ቀጥተኛ ንክኪ ማድረግ </string>
+
+
+
+    <string name="coughing_up_blood">ደም የቀላቀለ ሳል ማሳል</string>
+    <string name="caring_for_covid_19_suspected_person_without_protection">በኮቪድ-19 የተጠረጠረን ሰው ያለ ጥበቃ መንከባከብ</string>
+    <string name="direct_physical_contact_with_a_person_suspected_of_having_covif_19">ኮቪድ-19 አለበት ተብሎ ከተጠረጠረ ሰው ጋር ቀጥተኛ ንክኪ ማድረግ</string>
+
+    <string name="your_symptoms_are_worrisome_and_may_be_related_to_covid_19">ምልክቶችዎ አሳሳቢ ናቸው ምናልባት ከኮቪድ-19 ጋር የተያያዘ ሊሆን ይችላል. አካባቢዎ ወደሚገኝ የጤና ተቋም ይደውሉ. እንደ ሀገሩ ሁኔታ ከጤና ጥበቃ ሚኒስቴር የተረጋገጠ የስልክ መስመር ሊኖር ይችላል</string>
+    <string name="analyzing_your_symptoms">ምልክቶችዎን በመተንተን ላይ</string>
+    <string name="wait_while_loading">በመጫን ላይ ነው ይጠብቁ...</string>
+    <string name="your_symptoms_are_very_serious_and_you_may_have_covid_19">ምልክቶችዎ በጣም ከባድ ናቸው እና እርስዎ ኮቪድ-19 ሊኖርብዎት ይችላል.</string>
+    <string name="call_a_doctor">ለሐኪም ይደውሉ</string>
+    <string name="your_answers_do_not_suggest_that_you_have_the_covid_19">የእርስዎ መልሶች ኮቪድ-19 እንዳለብዎት አያመላክቱም. ሆኖም ምልክቶችዎ አሳሳቢ ስለሆኑ የህክምና ምክር ይፈልጋሉ.</string>
+    <string name="consult_your_health_care_provider_avoid_all_contacts">በአካባቢዎ የሚገኝ የጤና ተቋም ያመክሩ .\n ማንኛውንም አይነት ንክኪ ያቁሙ</string>
+
+
+    <string name="call_the_emergency_number_avoid_all_contact">ለአደጋ ጊዜ ይደውሉ. \nማንኛውንም አይነት ንክኪ ያቁሙ.</string>
+
+
+    <string name="error_occured">ስህተት ተፈጥሯል</string>
+    <string name="search_by_country">በሀገር ይፈልጉ</string>
+    <string name="last_sysnced_reginonal_data_loaded_no_internet">መጨረሻ ላይ የተጫኑ ክልላዊ መረጃ : በይነመረብ የለም</string>
+    <string name="covid_cases_et">ኮቪድ ኬዝ በኢትዮጵያ</string>
+    <string name="covid_et_regional">ኮቪድ በኢትዮጵያ ክልሎች</string>
+    <string name="covid_19_world">ኮቪድ-19 በአለም</string>
+    <string name="no_internet_last_data_loaded">በይነመረብ የለም: መጨረሻ ላይ የተጫኑ</string>
+    <string name="please_insert_username_and_password">እባክዎ መለያ ስም እና የይለፍ ቃል ያስገቡ</string>
+    <string name="login_successfully">በተሳካ ሁኔታ ገብተዋል</string>
+    <string name="wrong_username_or_password">የተሳሳተ መለያ ስም ወይም የይለፍ ቃል</string>
+    <string name="contact_a_medical_provider"><![CDATA[Contact a medical provider.\n=>This tool is intended for people 2 years or older. Please call the child’s medical provider, clinician advice line, or telemedicine provider.]]></string>
+    <string name="ask_parental_gidance">እነዚህን ጥያቄዎች ለማጠናቀቅ እባክዎን ወላጅዎን አሳዳጊዎን ወይም ሌላ ሰው እንዲረዱዎት ይጠይቁ.</string>
+    <string name="ask_a_parent_or_guardian_to_assist_you_or_if_taking_by_yourself_share_these_results_with_your_parent_guardian">እነዚህን ጥያቄዎች ለማጠናቀቅ እባክዎን ወላጅዎን አሳዳጊዎን ወይም ሌላ ሰው እንዲረዱዎት ይጠይቁ.</string>
+    <string name="all_fields_are_required">ሁሉም ቦታዎች መሞላት አለባቸው</string>
+    <string name="registration_successfully">በትክክል ተመዝግበዋል</string>
+    <string name="you_are_not_registred">አልተመዘገቡም</string>
+    <string name="password_doesnt_match">የይለፍ ቃሉ\'t አልተዛመደም</string>
+    <string name="you_should_be_fine">ደህና መሆን አለብዎት</string>
+    <string name="tale_extra_precaution">ተጨማሪ ጥንቃቄ ያድርጉ</string>
+    <string name="you_are_at_risk">ስጋት ላይ ነዎት</string>
+    <string name="you_have_an_estimated">ግምታዊ አሀዝ</string>
+    <string name="change_of_dying_from_covid_19_if_infected">%በበሽታው ከተያዘ በኮቪ -19 የመሞት እድሉ</string>
+    <string name="who_prevention_tip">የአለም ጤና ድርጅት መከላከያ ምክሮች</string>
+    <string name="who_test_result_tip">የአለም ጤና ድርጅት ምርመራ ውጤት ጠቃሚ ምክር</string>
+    <string name="high_fever_indicates">እነዚህ ወይም ከእነዚህ በላይ መጠነ ሙቀት ትኩሳትን ያመለክታል <b>ትኩሳት</b>: \n
+        <ul>
+            \t<li><b>ወጣቶችና ልጆች:</b> 100.4°F (38°C)</li>\n
+            \t<li> <b>ህፃናቶች (ከ1 አመት በታች):</b> 99°F (37.2°C)  or 100.4°F (38°C) </li>
+         </ul>
+    </string>
+
+    <string name="symptoms_associated_with_a_fever">ከትኩሳት ጋር የተገናኙ ምልክቶች ሊኖርብዎት ይችላሉ: \n
+        <ul>
+            \t<li> ብርድ ብርድ ማለት </li>\n
+            \t<li> ራስ ምታት </li> \n
+            \t<li> ላብ ላብ የማለት </li> \n
+            \t<li> የምግብ ፍላጎት አለሞኖር </li> \n
+            \t<li> ድርቀት </li> \n
+            \t<li> አቅም ማጣት </li>
+         </ul>
+    </string>
+
+    <string name="low_grade_vs_high_grade_fevers">ዝቅተኛ-ደረጃ እና ከፍተኛ-ደረጃ ትኩሳት: \n
+        <ul>
+            <li> ለአዋቂዎችና ለህፃናት አነስተኛ ደረጃ ያለው ትኩሳት የሰውነትዎ ሙቀት ከተለመደው ትንሽ ከፍ ሲል ነው ፡፡ ይህ በአጠቃላይ በ98.8 °F (37.1 °C) እና 100.3 °F (38 °C) መካከል ሲሆን ነው. </li>\n
+            <li> ከፍተኛ ትኩሳት ያለባቸው ሰዎች የሕክምና ምክር ማግኘት አለባቸው. ለአዋቂዎች ይህ በአፍ የሚወሰድ የሙቀት መጠን 103 ° F (39.4 ° C) ነው. ከ 3 ወር በላይ ለሆኑ ሕፃናት ይህ ቀጥተኛ የሙቀት መጠን 102 °F(38.9 °F) ወይም ከዚያ በላይ ነው. </li>
+         </ul>
+    </string>
+
+    <string name="tips_for_treating_a_fever">
+        <ul>
+            <li> <b>ሙቀትዎን ያስወግዱ</b>. ከቻሉ የክፍሉን የሙቀት መጠን እንዲቀዘቅዝ ያድርጉ. ቀለል ያሉ ልብሶችን እና የትንፋሽ የትንፋሽ ጨርቆችን ይጠቀሙ. ስስ እና ቀላል የሌሊት ልብሶችን ይጠቀሙ.</li>\n
+            <li> <b>ፈሳሽ ነገሮችን ይጠቀሙ</b>. ፈሳሾችን መተካት ቁልፍ ነገር ነው ፡፡ ውሃ ሁል ጊዜ ጥሩ አማራጭ ነው ፣ ነገር ግን እንደ ፔዲያላይት ፣ ሾርባ ወይም የውሃ ሬሀይድራሽን ድብልቅም ጠቃሚ ሊሆን ይችላል ፡፡ </li>
+            <li> <b>ትኩሳትን ሊቀንስ የሚችል ነገሮችን ይውሰዱ</b>. እንደ ኢቡፕሮፌን (Advil) እና አሴታሚኖፌን (Tylenol) ያሉ ትኩሳትን የሚቀንሱ መድኃኒቶችም ምልክቶችን ለማስታገስ ሊረዱ ይችላሉ፡፡ ትክክለኛ መጠን ያለው ዶዝ ለማግኘት እና እነዚህን መድኃኒቶች ለሕፃን ወይም ለልጅ ከማቅረባችን በፊት ሐኪምዎን ያነጋግሩ. </li> \n
+            <li> <b>ዕረፍት ያድርጉ.</b> እንቅስቃሴ ማድረግ የሰውነትዎን የሙቀት መጠን ከፍ ሊያደርግ ይችላል ፣ ስለሆነም ትኩሳቱ እስኪያልፍ ድረስ እየጠበቁ ነገሮችን በዝግታ ይያዙ፡፡  </li>
+
+        </ul>
+    </string>
+    <string name="do_you_have_a_fever_how_to_tell_and_what_you_should_do_next">ትኩሳት አለብዎት? ቀጥሎም እንዴት መናገር እና ምን ማድረግ አለብዎት </string>
+    <string name="a_fever_is_when_your_body_temperature_is_higher_than_normal_the_average_body_temperature">ትኩሳት ማለት የሰውነትዎ ሙቀት ከተለመደው ከፍ ሲል ነው ፡፡ አማካይ የሰውነት ሙቀት 98.6°F (37°C) ነው።</string>
+    <string name="your_average_body_temperature_may_be_higher_or_lower_than_that_it_can_also_fluctuate_slightly_throughout_the_day">አማካይ የሰውነትዎ የሙቀት መጠን ከተለመደው ከፍ ወይም ዝቅ ሊል ይችላል። እንዲሁም በቀን ውስጥ ሊቀያየር ይችላል። እነዚህ መቀያየሮች እንደ እድሜዎ መጠን ይለያያሉ፡፡ የሰውነት ሙቀትው ከሰዓት በኋላ ሁሌም ከፍተኛ ነው፡፡</string>
+    <string name="when_your_body_temperature_rises_higher_than_normal_it_may_be">የሰውነት ሙቀትዎ ከተለመደው በላይ ሲጨምር, ሰውነትዎን ከኢንፌክሽን ለመዋጋት በሂደት ላይ እንዳለ ምልክቶች ያሳያሉ፡፡ ብዙውን ጊዜ ለድንገተኛ መንስኤ አይሆንም፡፡</string>
+    <string name="what_are_the_symptoms_of_a_fever">የትኩሳት ምልክቶች ምንድን ናቸው??</string>
+    <string name="low_grade_vs_high_grade_fevers_title">ዝቅተኛ እና ከከፍተኛ-ደረጃ ትኩሳት </string>
+    <string name="tips_for_treating_a_fever_title">ትኩሳትን ለማከም የሚረዱ ምክሮች</string>
+    <string name="what_does_my_type_of_cough_mean">ምን አይነት ሳል ነው ያለብኝ?</string>
+
+    <string name="cough_is_an_important_defensive_reflex_that_helps_protect_your_body">ሳል የመተንፈሻ አካላትን ከሚያጠቁ ብናኝ ነገሮች የመከላከያ መንገድ ነው: \n
+        <ul>
+            \t<li> ንፋጭ </li>\n
+            \t<li> ጪስ </li> \n
+            \t<li> እንደ አቧራ ፣ ሻጋታ እና የአበባ ዱቄት ያሉ አለርጂዎች </li>
+         </ul>
+    </string>
+    <string name="coughing_is_your_body_s_way_of_getting_rid_of_an_irritant"> ሳል ብናኞችን ለማስዎጣት ጠቃሚ ነው.</string>
+    <string name="when_something_irritates_your_throat_or_airway_your_nervous_system_sends_an_alert_to_your_brain_your_brain_responds_by_telling_the_muscles_in_your_chest_and_abdomen_to_contract_and_expel_a_burst_of_air">በሆነ ነገር ጉሮሮዎን ሲከረክርዎት ወይም ሲዘጋ የነርቭ ሲስተምዎ ለአንጎልዎ መልዕክት ይልካል፡፡ በደረትዎ እና በሆድዎ ውስጥ ላሉት ጡንቻዎች አየር እንዲልኩ በመንገር አንጎልዎ ምላሽ ይሰጣል ፡፡</string>
+    <string name="what_causes_a_cough">ሳል ምንን ያስከትላል?</string>
+
+    <string name="what_causes_a_cough_list">ሳል በጊዜያዊ ወይም በቋሚነት በበርካታ ሁኔታዎች ሊመጣ ይችላል:\n
+        <ul>
+            \t<li> ጉሮሮን ማጽዳት </li>\n
+            \t<li> ቫይረስ እና ባክቴሪያ </li> \n
+            \t<li> ማጨስ </li>\n
+            \t<li> አስማ </li>\n
+            \t<li> መድሃኒቶች </li>
+         </ul>
+    </string>
+    <string name="covid_19_and_dry_cough">ኮቪድ-19 እና ደረቅ ሳል</string>
+
+    <string name="cdc_cough_guideline">ከታመሙ እና ኮቪድ-19 አለብኝ ብለው ካሰቡ, የአለም በሽታ መቆጣጠር እና መከላከል ድርጅት ሲዲሲ የሚከተሉትን ነገሮች እንዲያደርጉ ያሳስባል::\n
+        <ul>
+            \t<li> ብዙ ሰው ባለበት አይሂዱ ቤትዎ ይቆዩ</li>\n
+            \t<li> በተቻለ መጠን እራስዎን ከሁሉም የቤተሰብ አባላት ያግልሉ </li> \n
+            \t<li> ሲያስነጥሱ ወይም ሲያስሉ በእጅዎ ይያዙ </li>\n
+            \t<li> ከሌሎች ሰዎች ጋር ሲሆኑ ጭምብል ይልበሱ </li>\n
+            \t<li> ሐኪምዎን ያነጋግሩ </li>\n
+            \t<li> የሕክምና ዕርዳታ ማግኘት ከፈለጉ ይደውሉ።  </li>\n
+            \t<li> እጅዎን ሁል ጊዜ ይታጠቡ </li>\n
+            \t<li> የቤት ውስጥ መገልገያ እቃዎችን በጋራ አይጠቀሙ</li>\n
+            \t<li> ንጣፎችን በፀረ-ተባይ ማጥፊያ ያፀዳሉ </li>\n
+            \t<li> ምልክቶችዎን ይቆጣጠሩ </li>
+         </ul>
+    </string>
+
+    <string name="cdc_cough_guideline_syptom_serious">የሚከተሉት ምልክቶች ከታዩብዎት ድንገተኛ የሕክምና ዕርዳታ ማግኘት አለብዎት:\n
+        <ul>
+            \t<li> የመተንፈስ ችግር</li>\n
+            \t<li> የደረት መወጠር </li> \n
+            \t<li> የከንፈር ሰማያዊ ከለር መሆን </li>\n
+            \t<li> ግራ መጋባት </li>
+         </ul>
+    </string>
+
+    <string name="dry_cough_is_one_of_the_most_common_symptoms_of_covid_19_other_telltale_signs_of_covid_19_include_fever_and_shortness_of_breath">ደረቅ ሳል በዋናነት የተለመደ የኮቪድ-19 ምልክት ነው:: ሌሎች እንደ ትኩሳት እና የአተነፋፈስ ችግር ያሉ ምልክቶችም ይስተዋላሉ::</string>
+    <string name="remedies_for_a_dry_cough">ለደረቅ ሳል የሚረዱ ነገሮች</string>
+
+    <string name="remedies_for_dry_cough_depend_on_its_cause">ለደረቅ ሳል የሚሰጡ ነገሮች በምልክቶቹ ይወሰናሉ:\n
+        <ul>
+            \t<li> <b>ሕፃናት እና ታዳጊዎች</b>. በህፃናት እና በታዳጊዎች, ደረቅ ሳል በተለምዶ ህክምና አያስፈልገውም፡፡ እርጥበታማ ነገሮች የበለጠ ሊያባብሱት ይችላሉ፡፡ የመተንፈስ በሽታን ለማከም, ልጅዎን በእንፋሎት ወደ ተሞላ መታጠቢያ ቤት ወይም በቀዝቃዛ ምሽት ውጭ ላይ ያድርጉ፡፡</li>\n
+            \t<li> <b>ትልልቅ ልጆች</b>. እርጥበት አዘል ሁኔታዎች የመተንፈሻ አካላቸው እንዳይደርቅ ይረዳሉ። ትልልቅ ልጆች የጉሮሮ ህመምን ለማስታገስም የሳል ጠብታዎችን መጠቀም ይችላሉ፡፡ ሁኔታወች ከ3 ሳምንታት በላይ ከቀጠለ ከሐኪምዎ ያናግሩ፡፡ ልጅዎ አንቲባዮቲኮች ፣ ፀረ-ሂስታሚኖች ወይም የአስም መድኃኒቶች ሊያስፈልግዎ ይችላል፡፡</li> \n
+            \t<li> <b>ጓልማሶች</b>. በአዋቂዎች ሥር የሰደደ ለረጅም ጊዜ የሚቆይ ደረቅ ሳል ብዙ ምክንያቶች ሊኖሩት ይችላል፡፡ ህመም እና የልብ በሽታ ያሉ ምልክቶች ሲታዩብዎት ሐኪምዎን ያናግሩ፡፡ አንቲባዮቲክስ ፣ ፀረ-አሲድ ፣ የአስም መድኃኒቶች ወይም ተጨማሪ ምርመራዎች ሊያስፈልግዎት ይችላሉ፡፡ በአሁኑ ጊዜ ስለሚወስዷቸው ሁሉም መድሃኒቶች እና ተጨማሪ ነገሮች ለሐኪምዎ ያናግሩ፡፡ </li>
+         </ul>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">ባዶ ቁርጥራጭ</string>
+    <string name="causes_of_fatigue_and_how_to_manage_it">የድካም መንስኤዎች እና መፍትሔዎቹ</string>
+    <string name="fatigue_is_a_term_used_to_describe_an_overall_feeling">ድካም ማለት አጠቃላይ የድካም ስሜትን ወይም የኃይል እጥረትን ለመግለጽ የሚያገለግል ቃል ነው፡፡ እንደ እንቅልፍ ወይም እንቅልፍ የመያዝ ስሜት ተመሳሳይ አይደለም። በሚደክሙበት ጊዜ ምንም አይነት ተነሳሽነት እና ጉልበት የለዎትም፡፡ እንቅልፍ መተኛት የድካም ምልክት ሊሆን ይችላል ፣ ግን ያናህል ያደክማል ማለት አይደለም።</string>
+    <string name="fatigue_is_a_common_symptom_of_many_medical_conditions">ድካም ከቀላል እስከ ከባድ ድረስ የሚዘልቅ የብዙ የጤና ሁኔታዎች የተለመደ ምልክት ነው፡፡ እንደ የአካል ብቃት እንቅስቃሴ እጥረት ወይም ደካማ የአመጋገብ ስርዓት ያሉ አንዳንድ የአኗኗር ዘይቤ ሁኔታዎች ተፈጥሯዊ ውጤትም ነው።</string>
+    <string name="if_your_fatigue_doesn_t_resolve_with_proper_rest_and_nutrition_or_you_suspect_it_s_caused_by_an_underlying">ድካምዎ በበቂ እረፍት እና በተመጣጠነ ምግብ የማይፈታ ከሆነ, ወይም የአካል ወይም የአእምሮ ጤንነት ሁኔታ የሚያሳስብዎት ከሆነ ፣ ዶክተርዎን ያነጋግሩ፡፡ ዶክተሮችም የድካምዎን መንስኤ ለመመርመር ፣ ለማከም እና ለመንከባከብ ይረዱዎታል፡፡</string>
+    <string name="what_causes_fatigue">ድካምን የሚያስከትለው ምንድን ነው?</string>
+
+    <string name="there_are_many_potential_causes_of_fatigue">ብዙ የድካም መንስኤዎች አሉ፡፡ እነሱም በሦስት አጠቃላይ ምድቦች ይከፈላሉ:\n
+        <ul>
+            \t<li> የአኗኗር ዘይቤ ምክንያቶች</li>\n
+            \t<li> አካላዊ የጤና ሁኔታዎች </li> \n
+            \t<li> የአእምሮ ጤና ጉዳዮች </li>
+         </ul>
+    </string>
+
+    <string name="lifestyle_factors"> <b>የአኗኗር ዘይቤ ምክንያቶች</b>\nድካም እያጋጠመዎት ከሆነ, የእርስዎ እንቅስቃሴዎች እና ሌሎች የአኗኗር ዘይቤዎች ዋነኛ ምክንያት ሊሆኑ ይችላሉ፡፡ ለምሳሌ ፣ ድካም በሚከተሉት ነገሮች ሊመጣ ይችላል:\n
+        <ul>
+            \t<li> አካላዊ እንቅስቃሴ</li>\n
+            \t<li> የአካል ብቃት እንቅስቃሴ ማነስ</li> \n
+            \t<li>ከመጠን በላይ ክብደት ወይም ውፍረት </li> \n
+            \t<li> የመንፈስ ውጥረት/መጨነቅ </li> \n
+            \t<li> እንደ ፀረ-ድብርት ያሉ አንዳንድ መድሃኒቶችን መውሰድ</li> \n
+            \t<li> መደበኛ የሆነ የአልኮል መጠቀም </li> \n
+            \t<li> እንደ ኮኬይን ያሉ ሕገወጥ መድኃኒቶችን መጠቀም </li> \n
+            \t<li> በጣም ብዙ ካፌይን መውሰድ </li> \n
+            \t<li> የተመጣጠነ ምግብ አለመመገብ </li>
+         </ul>
+    </string>
+
+    <string name="physical_health_conditions"> <b>አካላዊ የጤና ሁኔታዎች</b>\nብዙ የሕክምና ሁኔታዎች ድካምን ሊያስከትሉ ይችላሉ፡፡ ለምሳሌ:\n
+        <ul>
+            \t<li> የደም ማነስ ችግር</li>\n
+            \t<li> አርትራይተስ/ብግነት </li> \n
+            \t<li> ፋይብሮማያልጂያ </li> \n
+            \t<li> ከባድ የሆነ የድካም ስሜት </li> \n
+            \t<li> እንደ ጉንፋን እና ፍሉ ያሉ ኢንፌክሽኖች</li> \n
+            \t<li> የአዲሰን በሽታ ፣ የሆርሞን መጠንዎን ሊጎዳ የሚችል </li> \n
+            \t<li> ሃይፖታይሮይዲዝም ፣ ወይም አንደርአክቲቭ ታይሮይድ </li> \n
+            \t<li> ሃይፖታይሮይዲዝም, ወይም ኦቨርአክቲቭ ታይሮይድ </li> \n
+            \t<li> የዕንቅልፍ መዛባት, ወይም እንቅልፍ ማጣት </li> \n
+            \t<li> የአመጋገብ ችግሮች እንደ ኢፈቀደምግብ </li> \n
+            \t<li> የሰውነት በሽታን መቋቋም አልመቻል </li> \n
+            \t<li> የልብ መጨነቅ እና ሥራ ማቆም </li> \n
+            \t<li> የሳንባ ምች በሽታ (COPD) </li> \n
+            \t<li> የኩላሊት በሽታ </li> \n
+            \t<li> የጉበት በሽታ </li> \n
+            \t<li> የስኳር በሽታ </li>
+         </ul>
+    </string>
+
+
+    <string name="mental_health_issues"> <b>የአእምሮ ጤና ሁኔታዎች</b>\nየአእምሮ ጤንነት ሁኔታዎችም ድካምን ሊያመጡ ይችላሉ:\n
+        <ul>
+            \t<li> ለምሳሌ, ድካም የተለመደ የጭንቀት ምልክት ነው</li>\n
+            \t<li> ድብርት, እና  </li> \n
+            \t<li> ወቅታዊ በሽታ. </li>
+         </ul>
+    </string>
+    <string name="what_are_some_lifestyle_changes_that_can_help_reduce_fatigue">ድካምን ለመቀነስ የሚረዱ አንዳንድ የአኗኗር ዘዴዎች ምንድናቸው?</string>
+    <string name="a_number_of_measures_can_help_lessen_fatigue_caused_by_daily_activities_to_help_boost_your_energy_levels_and_overall_health">በብዙ መስፈርቶች በዕለት ተዕለት እንቅስቃሴዎች ምክንያት የሚመጣውን ድካም መቀነስ ይቻላል ፡፡ የኃይል መጠንዎን እና አጠቃላይ ጤናዎን ለማስተካከል ያግዛል:</string>
+
+    <string name="recommendation_for_fatigue">
+        <ul>
+            <li> ፈሳሽ ነገር አዘውትረው ይጠቀሙ</li>\n
+            <li> ጤናማ የአመጋገብ ልምዶችን ያዳብሩ  </li> \n
+            <li>በቂ የአካል እንቅስቃሴን ያድርጉ  </li>\n
+            <li> በቂ እንቅልፍ ያግኙ </li>\n
+            <li> ጭንቀትን ያስዎግዱ </li>\n
+            <li> ከመጠን በላይ የሚጠይቅ የሥራ ወይም ማህበራዊ መርሃግብርን ያስወግዱ </li>\n
+            <li> እንደ ዮጋ ያሉ ዘና የሚያደርጉ እንቅስቃሴዎችን ይስሩ </li>\n
+            <li> ከአልኮል ፣ ከትንባሆ እና ከሌሎች ሕገወጥ መድኃኒቶች የራቁ </li>\n
+         </ul>
+    </string>
+    <string name="symptoms_causes_and_treatment">ምልክቶች ፣ ምክንያቶች እና ህክምና</string>
+    <string name="a_sore_throat_is_a_painful_dry_or_scratchy_feeling_in_the_throat">የጉሮሮ መቁሰል በጉሮሮ ውስጥ ህመም ፣ ደረቅ ወይም የመቧጠጥ ስሜት መኖር ነው።</string>
+
+    <string name="sore_throats_are_divided_into_types"> የጉሮሮ ህመም በአይነት እና በሚያጠቃው የጉሮሮ ክፍል ይከፈላሉ:\n
+        <ul>
+            \t<li> <b>የፍራንጊኒስ በሽታ</b> ከአፉ በስተጀርባ ያለውን አካባቢ ያጠቃል.</li>\n
+            \t<li> <b>የቶንሲል በሽታ</b> የቶንሲል እብጠት እና መቅላት ፣ በአፉ ጀርባ ያለው ለስላሳ ህብረ ህዋስ ነው ፡፡  </li> \n
+            \t<li> <b>ላንጊንስስ</b> የድምፅ ሣጥን እና ማንቁርት ማበጥ እና  መቅላት። </li>
+         </ul>
+    </string>
+    <string name="sore_throat_symptoms">የጉሮሮ ህመም ምልክቶች</string>
+
+    <string name="sore_throat_symptoms_list"> የጉሮሮ መቁሰል ምልክቶች በተለያየ ምክንያቶች ይለያያሉ፡፡ የጉሮሮ መቁሰል ሊሰማ ይችላል:\n
+        <ul>
+            \t<li> ማሳከክ/መቧጠጥ</li>\n
+            \t<li> ማቃጠል  </li> \n
+            \t<li> መላጥ </li> \n
+            \t<li> መድረቅ </li> \n
+            \t<li> ማበጥ </li> \n
+            \t<li> መቆጥቆጥ </li> \n
+         </ul>
+    </string>
+    <string name="causes_of_sore_throats">የጉሮሮ መቁሰል ምክንያቶች</string>
+
+    <string name="caluses_of_sore_throat"> የጉሮሮ ህመም መንስኤዎች ከኢንፌክሽን እስከ ጉዳቶች ይለያያሉ ፡፡ በጣም የተለመዱት የጉሮሮ ህመም መንስኤዎች የሚከተሉት ናቸው፡፡\n
+        <ul>
+            \t<li> ጉንፋን ፣ ፍሉ እና ሌሎች የቫይረስ ኢንፌክሽኖች</li>\n
+            \t<li> የጉሮሮ እና ሌሎች የባክቴሪያ ኢንፌክሽኖች  </li> \n
+            \t<li> አለርጅክ </li> \n
+            \t<li> ደረቅ አየር </li> \n
+            \t<li> ጭስ ፣ ኬሚካሎች እና ሌሎች የሚቆጠቁጡ ነገሮች </li> \n
+            \t<li> ጉዳት፣ </li> \n
+            \t<li> ጋስትሮሶፋጌል ሪልክስ በሽታ (GERD) </li> \n
+            \t<li> ዕጢ </li>
+         </ul>
+    </string>
+    <string name="home_remedies_for_a_sore_throat">ለጉሮሮ መቁሰል የቤት ውስጥ መድሃኒቶች</string>
+    <string name="you_can_treat_most_sore_throats_at_home_get_plenty_of_rest_to_give_your_immune_system_a_chance_to_fight_the_infection">በቤት ውስጥ የጉሮሮ ህመሞችን ማከም ይችላሉ. በሽታ የመከላከል አቅመዎን ለማጎልበት እና ኢንፌክሽኑንን ለመቋቋም እድል በቂ ዕረፍትን ያግኙ፡፡</string>
+
+    <string name="home_remedies_for_a_sore_throat_list"> የጉሮሮ ህመምን ለማስታገስ:\n
+        <ul>
+            \t<li> ለብ ባለ ውሀ እና ከ ግማሽ እስከ አንድ የሻይ ማንኪያ ጨው በመቀላቀል አፍዎን ይጉመጥመጡ።</li>\n
+            \t<li> ሞቅ ያለ ፈሳሽ ይጠጡ ወይም ትኩስ ነገር ይውሰዱ ፣ እነደ ሻይ በማር, ሾርባ, ወይም የሞቀ ውሀ በሎሚ። ከአትክልት የተቀመመ ሻይ የጉሮሮ መቁሰልን ያስታግሳል።</li> \n
+            \t<li> እንደ ፖፕሲክል ወይም አይስክሬም ያሉ ቀዝቃዛ ነገሮችን በመመገብ ጉሮሮዎን ያቀዘቅዙ።</li> \n
+            \t<li> ከረሜላ ወይም ሎዜንጌ ይጠቀሙ። </li> \n
+            \t<li> በአየር ላይ እርጥበትን ለመጨመር የእርጥበት ማጥፊያውን ያብሩ። </li> \n
+            \t<li> ጉሮሮዎ ጥሩ ስሜት እስኪሰማዎ ድረስ ድምጽዎን ያሳርፉ። </li>
+            \t<li> ዕጢ </li>
+         </ul>
+    </string>
+
+    <string name="why_am_i_having_trouble_breathing">ለመተንፈስ ለምን እቸገራለሁኝ?</string>
+    <string name="experiencing_breathing_difficulty_describes_discomfort_when_breathing_and_feeling">የመተንፈስ ችግር ሲያጋጥም ምቹ ያልሆነ አተነፋፈስ እና ሙሉ በሙሉ ትንፋሽ ማስወጣት አለመቻልን ያጋጥማል፡፡ ይህ ቀስ በቀስ ሊያድግ ወይም በድንገት ሊመጣ ይችላል ፡፡ ቀላል የመተንፈስ ችግሮች እንደ ከኤሮቢክስ በኋላ ድካም, በዚህ ምድብ ውስጥ አይካተቱም ፡፡.</string>
+    <string name="breathing_difficulties_can_be_caused_by_many_different_conditions">የአተነፋፈስ ችግሮች በብዙ የተለያዩ ሁኔታዎች ሊከሰቱ ይችላሉ፡፡ በተጨማሪም በጭንቀት እና በደረት ጡንቻ ህመም ምክንያት ሊያድግ ይችላሉ ፡፡</string>
+
+    <string name="heart_conditions_that_can_cause_breathing_difficulty_list"> የልብ ህመም ካለ የመተንፈስ ችግር እና የኦክስጅን እጥረት ሊያጋጥም ይችላል፡፡ ምክንያቱም ልብ ለሁሉም የሰውነት ክፍል በኦክስጅን የበለፀገ ደም ስለምታቀብል ነው:\n
+        <ul>
+            \t<li> <b>የደም ቧንቧ በሽታ (CAD)</b> ወደ ልብ ደም የሚረጩ የደም ቧንቧዎች መጥበብ እና መጠንከር ምክንያት የሚመጣ በሽታ ነው፡፡ ይህ ሁኔታ ወደ ልብ የሚፈስ የደም መጠንን እንዲቀንስ ያደረገዋል, በመሆኑም የልብ ጡንቻን በቋሚነት ሊጎዳ ይችላል፡፡  </li>\n
+            \t<li> <b>የተወለደ የልብ በሽታ</b>, አንዳንድ ጊዜ የተወለዱ የልብ ችግሮች ተብለው ይጠራሉ ፣ በልብ አወቃቀር እና ተግባር ላይ በዘር የሚተላለፍ በሽታዎችን ያመለክታል፡፡   </li> \n
+            \t<li> <b>አርሂቲሚያ</b> ያልተለመዱ የልብ ምት ዓይነቶች ናቸው, የልብ ምት ላይ ተጽዕኖ ማሳደር, ልብን በፍጥነት እንዲመታ ወይም በጣም እንዲዘገይ ማድረግ። የቆየ የልብ ህመም ያለበት ሰው ለልብ ምት ችግር ወይም አርቲሚያ በሽታ የመጋለጥ እድሉ ከፍተኛ ነው። </li> \n
+            \t<li> <b>የልብ ድካም በሽታ (CHF)</b> የልብ ጡንቻዎች ሲደክሙ እና ደም ወደ ሰውነት ማሰራጨት ሳይችሉ ሲቀር የሚፈጠር ነው፡፡  ይህም ብዙውን ጊዜ በሳንባ ውስጥ ፈሳሽ እንዲከማች ያደርገዋል፡፡</li>
+         </ul>
+    </string>
+    <string name="heart_conditions_that_can_cause_breathing_difficulty2">የመተንፈስ ችግርን የሚያስከትሉ የልብ ሁኔታዎች</string>
+
+    <string name="environmental_issues"> <b>አካባቢያዊ ሁኔታዎች</b> እንዲሁም አተነፋፈስ ላይ ተጽዕኖ ሊያሳድር ይችላል:\n
+        <ul>
+            \t<li> በአቧራ ፣ በሻጋታ ወይም በአበባ ብናኝ አለርጂ </li>\n
+            \t<li> ጭንቀት እና ድብርት  </li> \n
+            \t<li> የተዘጋ የአፍንጫ መተላለፊያዎች ከአፍንጫ ወይም ከጉሮሮ አክታ </li> \n
+            \t<li> ወደ ከፍታ ሲወጡ አነሰተኛ የኦክስጅን መጠን መውሰድ </li>
+         </ul>
+    </string>
+
+
+    <string name="who_s_at_risk_for_breathing_difficulties">ለአተነፋፈስ ችግር ተጋላጭ የሆነው ማን ነው??</string>
+    <string name="other_causes_of_breathing_difficulty">ሌሎች የመተንፈስ ችግር ምክንያቶች</string>
+
+    <string name="who_s_at_risk_for_breathing_difficulties_detail"> የአተነፋፈስ ችግሮች የበለጠ አደጋ ላይ ነዎት:\n
+        <ul>
+            \t<li> የማያቋርጥ ጭንቀት </li>\n
+            \t<li> አለርጂ አለብዎት </li> \n
+            \t<li> የሳንባ ወይም የልብ ህመም አለብዎት </li> \n
+         </ul>
+       \nከመጠን በላይ መወፈርም ለአተነፋፈስ ችግር ተጋላጭነትን ይጨምራል፡፡ በጣም ከባድ የአካል እንቅስቃሴ ማድረግም እንዲሁ ለአተነፋፈስ ችግሮች አደጋ ላይ ሊጥልዎት ይችላል, በተለይም በከፍተኛ ፍጥነት ወይም ከፍታ ላይ በሚሰሩበት ጊዜ.
+    </string>
+    <string name="what_treatment_options_are_available">ምን ዓይነት የሕክምና አማራጮች አሉ?</string>
+    <string name="lifestyle_changes">የአኗኗር ዘይቤ ለውጦች</string>
+    <string name="stress_reduction">ጭንቀትን መቀነስ</string>
+    <string name="if_having_a_stuffy_nose_exercising_too_hard_or_hiking_at_high_altitudes_causes_your_symptoms_your_breathing_is_likely_to_return_to_normal_if_you_re_otherwise_healthy_the_temporary_symptoms_will_resolve_once_your_cold_goes_away_you_stop_exercising_or_you_return_to_a_lower_altitude">የአፍንጫዎን መጨናነቅ ፣ በጣም ከባድ የአካል ብቃት እንቅስቃሴ ማድረግ ወይም በከፍታ ቦታዎች በእግር እንቅስቃሴ ማድረግ ጤናማ ካልሆነ ትንፋሽዎ ወደ መደበኛ ሁኔታ ሊመለስ ይችላል፡፡ ጊዜያዊ ምልክቶችዎ ጉንፋንዎ ከጠፋ ፣ የአካል ብቃት እንቅስቃሴ ካቆሙ ወይም ወደ ዝቅተኛ ቦታ ሲመለሱ ይጠፋሉ፡፡</string>
+
+    <string name="stress_reduction_detail"> ጭንቀት ለመተንፈስ ችግር የሚዳርግዎት ከሆነ , ጭንቀትዎን ይቀንሱ፡፡ ጭንቀትን ለማስወገድ ጥቂት መንገዶች:\n
+        <ul>
+            \t<li> እንክብካቤ </li>\n
+            \t<li> የምክር አገልግሎት  </li> \n
+            \t<li> የአካል ብቃት እንቅስቃሴ </li> \n
+         </ul>
+       \n ዘና የሚያደርጉ ሙዚቃዎችን ማዳመጥ ወይም ከጓደኛ ጋር ማውራት ዳግም እንዲያስጀምሩ እና እንደገና እንዲያተኩሩ ሊረዳዎ ይችላል፡፡
+    </string>
+    <string name="medication">መድሃኒት</string>
+    <string name="some_breathing_difficulties_are_symptoms">አንዳንድ የመተንፈስ ችግሮች ከባድ የሆነ ይልብ እና የሳንባ ህመም ምልክቶች ናቸው፡፡ በእነዚህ ምክንያቶች, ሀኪምዎ ሌላ መድኃኒት ወይም ህክምና ሊዝልዎት ይችላል፡፡ ለምሳሌ እንደ አስም አይነት በሽታ ካለብዎት እና የመተንፈስ ችግር ካጋጠመዎት የመተንፈሻ መሳሪያ ወይም ኢንሄለር ያስፈልገወታል፡፡</string>
+    <string name="less_common_symptoms_such_as_rash_nausea_vomiting_and_diarrhea">ብዙም ያልተለመዱ ምልክቶች እንደ ሽፍታ, ማቅለሽለሽ, ማስታወክ እና ተቅማጥ፡፡</string>
+    <string name="partial_or_complete_loss_of_the_sense_of_smell_sense_of_taste_is_not_functioning_properly">የማሽተት ስሜት በከፊል ወይም ሙሉ በሙሉ ማጣት፡፡ ስሜተ ጣዕም ስራውን በትክክል ያለመስራት፡፡</string>
+</resources>

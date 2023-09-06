@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/have_you_had_close_contact_with_a_person_with_confirmed_or_probable_covid_19_in_the_past_14_days"
+                android:textAlignment="center"
+                android:textColor="#005E70"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/select_one_answer"
+                android:textAlignment="center"
+                android:textColor="@color/colorGrapeFruit"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/layoutborder_bg"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+                <RadioGroup
+                    android:id="@+id/contacttype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/contactresponce_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/i_have_provided_direct_care_to_such_a_person_without_the_use_of_a_protective_mask_and_gloves"
+                        android:textColor="#005E70" />
+
+                    <RadioButton
+                        android:id="@+id/contactresponce_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/i_had_direct_physical_contact_with_such_a_person"
+                        android:textColor="#005E70" />
+
+
+                    <RadioButton
+                        android:id="@+id/contactresponce_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/i_had_face_to_face_contact_with_such_a_person_within_1_meter_3_feet_for_longer_than_15_minutes"
+                        android:textColor="#005E70" />
+
+
+                    <RadioButton
+                        android:id="@+id/contactresponce_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/other_type_of_contact"
+                        android:textColor="#005E70" />
+
+                    <RadioButton
+                        android:id="@+id/contactresponce_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:buttonTint="@color/colorGrapeFruitDark"
+                        android:text="@string/none_of_the_above"
+                        android:textColor="#005E70" />
+                </RadioGroup>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/what_does_it_mean"
+                        android:textColor="#000" />
+
+                    <ImageButton
+                        android:id="@+id/contacttypedetail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@color/colorWhite"
+                        android:src="@drawable/moreinfo" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/previous"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/login_background"
+                        android:text="@string/back"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/login_background"
+                        android:text="@string/next"
+                        android:textSize="15dp"
+                        android:enabled="false"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

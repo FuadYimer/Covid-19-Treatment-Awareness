@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_bg"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/please_select_all_statements_that_apply_to_you"
+            android:textAlignment="center"
+            android:textColor="#005E70"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/layoutborder_bg"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <CheckBox
+                android:id="@+id/syptom_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:buttonTint="@color/colorGrapeFruitDark"
+                android:text="@string/diabets"
+                android:textColor="#005E70" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/syptom_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:buttonTint="@color/colorGrapeFruitDark"
+                    android:text="@string/cardiovascular_disease"
+                    android:textColor="#005E70" />
+                <ImageButton
+                    android:id="@+id/cardiodetail"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/syptom_2"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:src="@drawable/moreinfo" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/syptom_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:buttonTint="@color/colorGrapeFruitDark"
+                    android:text="@string/history_of_chronic_lung_disease"
+                    android:textColor="#005E70" />
+                <ImageButton
+                    android:id="@+id/lungdiseasedetail"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@+id/syptom_3"
+                    android:background="@color/colorWhite"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/moreinfo" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/syptom_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:buttonTint="@color/colorGrapeFruitDark"
+                    android:text="@string/history_of_chronic_liver_disease"
+                    android:textColor="#005E70" />
+                <ImageButton
+                    android:id="@+id/chronicliverdetail"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/syptom_4"
+                    android:background="@color/colorWhite"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/moreinfo" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/syptom_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:buttonTint="@color/colorGrapeFruitDark"
+                    android:text="@string/history_of_chronic_kidney_disease"
+                    android:textColor="#005E70" />
+                <ImageButton
+                    android:id="@+id/chronickidneydetail"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/syptom_5"
+                    android:background="@color/colorWhite"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/moreinfo" />
+            </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/previous"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/login_background"
+                android:text="@string/back"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/login_background"
+                android:text="@string/next"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
